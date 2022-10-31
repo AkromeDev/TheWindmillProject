@@ -12,6 +12,7 @@ import { FactsCollectionComponent } from './facts-collection/facts-collection.co
   imports: [
     CommonModule,
     FactsRoutingModule
-  ]
+  ],
+  exports: [FactsCollectionComponent]
 })
 export class FactsModule { }
