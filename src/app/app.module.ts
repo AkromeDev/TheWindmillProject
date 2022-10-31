@@ -8,19 +8,23 @@ import { FactsModule } from './facts/facts.module';
 import { OpportunityModule } from './opportunity/opportunity.module';
 import { SupportModule } from './support/support.module';
 import { TeamModule } from './team/team.module';
+import { HomeComponent } from './home/home.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     GoalsModule,
     FactsModule,
     OpportunityModule,
     SupportModule,
-    TeamModule
+    TeamModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

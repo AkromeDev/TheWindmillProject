@@ -1,1 +1,12 @@
-<router-outlet></router-outlet>
+<div class="ui container">
+    <div class="ui secondary pointing menu">
+        <a routerLink="/goals" routerLinkActive="active"class="item"> Some goals </a>
+        <a routerLink="/facts" routerLinkActive="active"class="item"> Some facts </a>
+        <a routerLink="/opportunity" routerLinkActive="active"class="item"> Some opportunity </a>
+        <a routerLink="/team" routerLinkActive="active"class="item"> Some team </a>
+        <a routerLink="/paypal" routerLinkActive="active"class="item"> Some support </a>
+    </div>
+    <div class="ui segment">
+        <router-outlet></router-outlet>
+    </div>
+</div>

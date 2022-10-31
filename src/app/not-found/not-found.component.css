@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: box-sizing;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 750px;
+    min-width: 100%;
+    /* background: rgb(176, 34, 34,0.1); */
+    overflow: hidden;
+}
+.box {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+.box span {
+    position: absolute;
+    inset: 0;
+    /* background: rgb(186, 172, 172,0.1); */
+    transform: rotate(calc(45deg * var(--i)));
+}
+.box span::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 250px;
+    height: 300px;
+    background: url(../../../images/OnOff/off.png);
+    background-size: cover;
+    background-position: center;
+    transform: translateX(-50%) translateY(-100px) scale(0.75);
+    animation: bulbs calc(0.5s * var(--i) + 0.5s) linear 2;
+    animation-delay: calc(0.2s * var(--i));
+}
+
+@keyframes bulbs {
+    0%,100% {
+        background: url(../../../images/OnOff/on.png); 
+    }
+    50% {
+        background: url(../../../images/OnOff/off.png); 
+    }
+}
+ 
