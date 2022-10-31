@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GoalsModule } from './goals/goals.module';
 import { FactsModule } from './facts/facts.module';
+import { OpportunityModule } from './opportunity/opportunity.module';
+import { SupportModule } from './support/support.module';
+import { TeamModule } from './team/team.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { FactsModule } from './facts/facts.module';
     BrowserModule,
     AppRoutingModule,
     GoalsModule,
-    FactsModules,
+    FactsModule,
+    OpportunityModule,
+    SupportModule,
+    TeamModule
   ],
   providers: [],
   bootstrap: [AppComponent]

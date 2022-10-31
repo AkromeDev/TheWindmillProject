@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { OpportunityElementsComponent } from './opportunity-elements/opportunity-elements.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: "opportunity", component: OpportunityElementsComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
