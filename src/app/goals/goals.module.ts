@@ -12,6 +12,7 @@ import { GoalsDescriptionComponent } from './goals-description/goals-description
   imports: [
     CommonModule,
     GoalsRoutingModule
-  ]
+  ],
+  exports: [GoalsDescriptionComponent]
 })
 export class GoalsModule { }
