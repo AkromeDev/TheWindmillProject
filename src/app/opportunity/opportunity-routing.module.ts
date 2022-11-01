@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { OpportunityElementsComponent } from './opportunity-elements/opportunity-elements.component';
 
 const routes: Routes = [
-  { path: "opportunity", component: OpportunityElementsComponent }
+  { path: '', component: OpportunityElementsComponent }
 ];
 
 @NgModule({

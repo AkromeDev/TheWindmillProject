@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { FactsCollectionComponent } from './facts-collection/facts-collection.component';
 
 const routes: Routes = [
-  { path: 'facts', component: FactsCollectionComponent}
+  { path: '', component: FactsCollectionComponent}
 ];
 
 @NgModule({
