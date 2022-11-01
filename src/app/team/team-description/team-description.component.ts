@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-team-description',
   templateUrl: './team-description.component.html',
-  styleUrls: ['./team-description.component.css']
+  styleUrls: ['./team-description.component.scss']
 })
 export class TeamDescriptionComponent implements OnInit {
 
