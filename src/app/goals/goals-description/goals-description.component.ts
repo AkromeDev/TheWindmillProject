@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Placeholder } from '@angular/compiler/src/i18n/i18n_ast';
 
 @Component({
   selector: 'app-goals-description',
