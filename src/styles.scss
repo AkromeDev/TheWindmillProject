@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'semantic-ui-css/semantic.css';
+
+:root {
+    --main-bg-color: rgba(255, 255, 255, 0.163);
+    --seco-bg-color: rgba(23, 94, 171, 0.163);
+    --main-text-color: rgba(23, 94, 171, 0.163);
+  }
+
+body {
+    background-color: var(--main-bg-color);
+}
