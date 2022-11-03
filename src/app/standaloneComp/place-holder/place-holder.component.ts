@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TimesDirective } from './times.directive';
+import { TimesDirective } from '../../directives/times/times.directive';
 
 @Component({
   selector: 'app-place-holder',
