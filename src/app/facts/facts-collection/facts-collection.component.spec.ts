@@ -11,9 +11,7 @@ describe('FactsCollectionComponent', () => {
       declarations: [ FactsCollectionComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(FactsCollectionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
