@@ -1,10 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TimesDirective } from './times.directive';
 
 @Component({
   selector: 'app-place-holder',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TimesDirective],
   templateUrl: './place-holder.component.html',
   styleUrls: ['./place-holder.component.scss']
 })
