@@ -9,12 +9,12 @@ import { NotFoundComponent } from './not-found/not-found.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     NotFoundComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HomeComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
