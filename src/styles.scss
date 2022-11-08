@@ -7,11 +7,13 @@
     --seco-bg-color: rgba(23, 94, 171, 0.163);
     --main-text-color: rgba(23, 94, 171, 0.163);
 
+    --main-bg-notFound: #78909c;
+
 
 
   // Margin don't know if that is really useful or no but let's see!
     --margin-top: 3vh;
   }
 body {
-    background-color: var(--main-bg-color);
+    // background-color: var(--main-bg-notFound);
 }

@@ -1,2 +1,20 @@
-<app-divider>Fuck</app-divider> 
-<app-table></app-table>
+<app-divider>Some table with numbers</app-divider> 
+<app-table cssClass="striped celled" [data]="data" [headers]="headers"></app-table>
+
+<app-divider>Some Tabs for presentation</app-divider>
+
+<div class="ui grid">
+    <div class="four wide column">
+        <div class="ui vertical fluid tabular menu">
+            <a routerLink="" routerLinkActive="active" class="item">Biography</a>
+            <a routerLink="q" routerLinkActive="active" class="item">Classical</a>
+            <a routerLink="j" routerLinkActive="bold" class="item">Shapes</a>
+        </div>
+    </div>
+    <div class="twelve wide stretched column">
+        <div class="ui segment">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
+
