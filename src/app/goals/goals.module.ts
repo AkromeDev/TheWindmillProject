@@ -2,16 +2,18 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { GoalsRoutingModule } from './goals-routing.module';
-import { GoalsDescriptionComponent } from './goals-description/goals-description.component';
+import { StatisticComponent } from '../standaloneComp/statistic/statistic.component';
+import { DividerComponent } from '../standaloneComp/divider/divider.component';
 
 
 @NgModule({
   declarations: [
-    GoalsDescriptionComponent,
   ],
   imports: [
     CommonModule,
     GoalsRoutingModule,
+    StatisticComponent,
+    DividerComponent,
   ]
 })
 export class GoalsModule { }

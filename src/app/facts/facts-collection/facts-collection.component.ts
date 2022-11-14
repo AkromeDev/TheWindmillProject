@@ -13,7 +13,7 @@ import { TableComponent } from 'src/app/standaloneComp/table/table.component';
 })
 export class FactsCollectionComponent implements OnInit {
   data = [
-    {country: 'Africa', rank: 1, averageWindSpeed: '15 knots'},
+    {country: 'South Africa', rank: 1, averageWindSpeed: '15 knots'},
     {country: 'South Sudan', rank: 2, averageWindSpeed: '13 knots'},
     {country: 'South Korea', rank: 3, averageWindSpeed: '10 knots'},
   ];

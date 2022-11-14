@@ -6,7 +6,7 @@ import { FirstTabComponent } from './first-tab/first-tab.component';
 import { SecondTabComponent } from './second-tab/second-tab.component';
 import { ThirdTabComponent } from './third-tab/third-tab.component';
 import { AppRoutingModule } from '../app-routing.module';
-import { RouterOutlet, RouterLinkActive, RouterLink, RouterLinkWithHref } from '@angular/router';
+import { RouterOutlet } from '@angular/router';
 
 
 
@@ -21,9 +21,6 @@ import { RouterOutlet, RouterLinkActive, RouterLink, RouterLinkWithHref } from '
     FactsRoutingModule,
     AppRoutingModule,
     RouterOutlet,
-    RouterLinkActive,
-    // RouterLink,
-    RouterLinkWithHref
   ],
 })
 export class FactsModule { }
