@@ -1,1 +1,26 @@
-<p>card works!</p>
+<div class="ui special cards">
+    <div class="card" *ngFor="let card of cards">
+      <div class="blurring dimmable image">
+        <div class="ui dimmer">
+          <div class="content">
+            <div class="center">
+              <div class="ui inverted button">{{ card.buttonText }}</div>
+            </div>
+          </div>
+        </div>
+        <img [src]="card.imageSrc">
+      </div>
+      <div class="content">
+        <a class="header">{{ card.headerText }}</a>
+        <div class="meta">
+          <span class="date">{{ card.dateText }}</span>
+        </div>
+      </div>
+      <div class="extra content">
+        <a>
+          <i class="icon" [ngClass]="card.iconClass"></i>
+          {{ card.iconText }}
+        </a>
+      </div>
+    </div>
+  </div>
