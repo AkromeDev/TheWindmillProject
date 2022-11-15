@@ -1,5 +1,5 @@
 .container {
-    background: url(../../../images/OnOff/404OffCyanDeux.jpeg);
+    background: url(../../assets/images/OnOff/404OffCyanDeux.jpeg);
     min-height: 500px;
     min-width: 100%;
     background-size: contain;
@@ -9,7 +9,7 @@
 }
 @keyframes notFound {
     0%, 39% {
-        background: url(../../../images/OnOff/404On.jpeg); 
+        background: url(../../assets/images/OnOff/404On.jpeg); 
         min-height: 500px;
         min-width: 100%;
         background-size: contain;
@@ -17,7 +17,7 @@
         background-repeat: no-repeat;
     }
     40% {
-        background: url(../../../images/OnOff/404OffCyan.jpeg); 
+        background: url(../../assets/images/OnOff/404OffCyan.jpeg); 
         min-height: 500px;
         min-width: 100%;
         background-size: contain;
@@ -25,7 +25,7 @@
         background-repeat: no-repeat;
     }
     50% {
-        background: url(../../../images/OnOff/404On.jpeg); 
+        background: url(../../assets/images/OnOff/404On.jpeg); 
         min-height: 500px;
         min-width: 100%;
         background-size: contain;
@@ -33,7 +33,7 @@
         background-repeat: no-repeat;
     }
     55% {
-        background: url(../../../images/OnOff/404OffCyan.jpeg);
+        background: url(../../assets/images/OnOff/404OffCyan.jpeg);
         min-height: 500px;
         min-width: 100%;
         background-size: contain;
@@ -41,7 +41,7 @@
         background-repeat: no-repeat; 
     }
     60% {
-        background: url(../../../images/OnOff/404On.jpeg); 
+        background: url(../../assets/images/OnOff/404On.jpeg); 
         min-height: 500px;
         min-width: 100%;
         background-size: contain;
@@ -49,7 +49,7 @@
         background-repeat: no-repeat;
     }
     70% {
-        background: url(../../../images/OnOff/404OffCyan.jpeg); 
+        background: url(../../assets/images/OnOff/404OffCyan.jpeg); 
         min-height: 500px;
         min-width: 100%;
         background-size: contain;
@@ -57,7 +57,7 @@
         background-repeat: no-repeat;
     }
     100% {
-        background: url(../../../images/OnOff/404OffCyanDeux.jpeg);
+        background: url(../../assets/images/OnOff/404OffCyanDeux.jpeg);
         min-height: 500px;
         min-width: 100%; 
         background-size: contain;
