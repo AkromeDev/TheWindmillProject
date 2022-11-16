@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -10,9 +10,19 @@ import { CommonModule } from '@angular/common';
 })
 export class ModalComponent implements OnInit {
 
-  constructor() { }
+  @Output() close = new EventEmitter;
+
+  constructor(private el: ElementRef) { }
 
   ngOnInit(): void {
+    document.body.appendChild(this.el.nativeElement);
   }
 
+  ngDestroy() {
+    this.el.nativeElement.remove();
+  }
+
+  protected closeModal() {
+    this.close.emit(); 
+  }
 }
