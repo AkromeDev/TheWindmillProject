@@ -1,0 +1,19 @@
+.olive {
+    display: none;
+    float: left;
+    position: absolute;
+    top: 45%;
+    bottom: 45%;
+    left: 25%;
+    right: 25%;
+}
+.card:hover {
+    .blurring.image img{
+        filter: brightness(45%) blur(2px);
+        transition: ease 1s;
+    }
+    .inverted.olive {
+        display: block;
+        transition: ease 1s;
+    }
+}
