@@ -1,2 +1,7 @@
 <app-divider>Our target for 2023</app-divider>
 <app-statistic [data]="stats"></app-statistic>
+
+<app-divider>Our target for 2023</app-divider>
+
+<button class="ui inverted olive button" (click)="openModal()">Click me</button>
+    <app-modal (close)="openModal()" *ngIf="modalOpenFlag"></app-modal>

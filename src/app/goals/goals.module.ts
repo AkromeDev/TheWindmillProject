@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { GoalsRoutingModule } from './goals-routing.module';
 import { StatisticComponent } from '../standaloneComp/statistic/statistic.component';
 import { DividerComponent } from '../standaloneComp/divider/divider.component';
+import { ModalComponent } from '../standaloneComp/modal/modal.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { DividerComponent } from '../standaloneComp/divider/divider.component';
     GoalsRoutingModule,
     StatisticComponent,
     DividerComponent,
+    ModalComponent,
   ]
 })
 export class GoalsModule { }
