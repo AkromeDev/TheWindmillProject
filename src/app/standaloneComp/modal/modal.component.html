@@ -1,29 +1,74 @@
-<div class="ui dimmer visible active">
-  <div class="ui modal visible active">
+<div class="ui dimmer visible active" (click)="closeModal()">
+  <div class="ui modal visible active" (click)="$event.stopPropagation()">
     <i class="close icon" (click)="closeModal()"></i>
-    <div class="header">
-      Profile Picture
+    <div class=" header header-default">
+      Our Dear Staff Member
     </div>
+    <div class=" header header-custom">{{ modalData.headerText }}</div>
     <div class="image content">
       <div class="ui medium image">
-        <img src="/images/avatar/large/chris.jpg">
+        <img class="img-custom" [src]="modalData.imgSrc">
+        <img class="img-default" src="../../../assets/images/people/t-square.jpeg">
       </div>
       <div class="description">
-        <div class="ui header">We've auto-chosen a profile image for you.</div>
-        <p>We've grabbed the following image from the 
-          <a href="https://www.gravatar.com" target="_blank">gravatar</a> 
-          image associated with your registered e-mail address.</p>
+        <div class="ui header descriptionTitle-default">
+          The finest of the finest for the Windmill project
+        </div>
+        <div class="ui header descriptionTitle-custom" [innerHTML]="modalData.descriptiontitleText">
+          {{ modalData.descriptiontitleText }}
+        </div>
+        <p>
+          We've grabbed the best team members for this adventure.<br>
+          Each and every one of them has capacities that are far beyon normal human beings. They 
+          acquired those skills though regular an exigent trainning! it would be a shame not to use them. 
+          Anf here they are just for you, ready to be used to improve the world.
+          <br><br>
           <p>Is it okay to use this photo?</p>
         </div>
       </div>
       <div class="actions">
         <div class="ui black deny button" (click)="closeModal()">
-          Nope
+          <div class="denyButton-custom">{{ modalData.denyButtonText }}</div>
+          <div class="denyButton-default">Nope 😑</div>
         </div>
         <div class="ui positive right labeled icon button">
-          Yep, that's me
+          <div class="acceptButton-custom">{{ modalData.acceptButtonText }}</div>
+          <div class="acceptButton-default">Yep, perfect  🐼</div>
           <i class="checkmark icon"></i>
         </div>
       </div>
     </div>
   </div>
+  
+  <!-- 
+    ORGINAL VERSION BEFORE REUSABILITY REFACTORING
+    <div class="ui dimmer visible active" (click)="closeModal()">
+      <div class="ui modal visible active" (click)="$event.stopPropagation()">
+        <i class="close icon" (click)="closeModal()"></i>
+        <div class="header">
+          Profile Picture
+        </div>
+        <div class="image content">
+          <div class="ui medium image">
+            <img src="/images/avatar/large/chris.jpg">
+          </div>
+          <div class="description">
+            <ng-content select=""></ng-content>
+            <div class="ui header">We've auto-chosen a profile image for you.</div>
+            <p>We've grabbed the following image from the 
+              <a href="https://www.gravatar.com" target="_blank">gravatar</a> 
+              image associated with your registered e-mail address.</p>
+              <p>Is it okay to use this photo?</p>
+            </div>
+          </div>
+          <div class="actions">
+            <div class="ui black deny button" (click)="closeModal()">
+              Nope
+            </div>
+            <div class="ui positive right labeled icon button">
+              Yep, that's me
+              <i class="checkmark icon"></i>
+            </div>
+          </div>
+        </div>
+      </div> -->

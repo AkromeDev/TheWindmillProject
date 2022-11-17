@@ -10,6 +10,7 @@ import { CommonModule } from '@angular/common';
 })
 export class ModalComponent implements OnInit {
 
+  @Input() modalData: any = [];
   @Output() close = new EventEmitter;
 
   constructor(private el: ElementRef) { }

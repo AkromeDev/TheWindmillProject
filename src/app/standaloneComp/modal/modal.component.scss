@@ -1,0 +1,51 @@
+.img-custom {
+    display: block;
+    height: 20vw;
+    min-width: 20vw;
+    width: auto;
+}
+.img-custom:empty {
+    display: none;
+}
+.img-default {
+    display: none;
+}
+.img-custom:empty + .img-default {
+    display: block;
+    height: 20vw;
+    min-width: 20vw;
+    width: auto;
+}
+
+// Show only one header at a time
+.header-custom:empty {
+    display: none;
+}
+.header-default {
+    display: none;
+}
+.header-custom:empty + .header-default {
+    display: block;
+}
+
+// Show only one denyButton at a time
+.denyButton-custom:empty {
+    display: none;
+}
+.denyButton-default {
+    display: none;
+}
+.denyButton-custom:empty + .denyButton-default {
+    display: block;
+}
+
+// Show only one acceptButton at a time
+.acceptButton-custom:empty {
+    display: none;
+}
+.acceptButton-default {
+    display: none;
+}
+.acceptButton-custom:empty + .acceptButton-default {
+    display: block;
+}

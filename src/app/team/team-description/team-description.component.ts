@@ -12,7 +12,7 @@ import { DividerComponent } from 'src/app/standaloneComp/divider/divider.compone
 export class TeamDescriptionComponent implements OnInit {
   cards = [
     { 
-      imageSrc: 'assets/images/people/therese.jpeg', 
+      imageSrc: 'assets/images/people/t.jpeg', 
       buttonText: 'Text me',
       headerText: 'Thérèse Ringler, best of the best',
       dateText: 'Since the 1st of January 2000, she is pretty young',
