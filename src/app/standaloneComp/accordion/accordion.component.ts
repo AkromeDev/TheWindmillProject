@@ -10,10 +10,18 @@ import { CommonModule } from '@angular/common';
 })
 export class AccordionComponent implements OnInit {
   @Input() data: any = [];
+  protected openIndex = 0;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  protected onClickIndex(index: number) {
+    if (index == this.openIndex) {
+      this.openIndex = -1;
+    } else {
+      this.openIndex = index;
+    }
+  }
 }
