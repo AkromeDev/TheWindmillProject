@@ -1,3 +1,7 @@
+.cards {
+    justify-content: center;
+    margin: 1vw;
+}
 .olive {
     display: none;
     float: left;
@@ -15,5 +19,6 @@
     .inverted.olive {
         display: block;
         transition: ease 1s;
+        height: 40px;
     }
 }
