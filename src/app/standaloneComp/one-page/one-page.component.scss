@@ -225,7 +225,7 @@ body {
 }
 .welcome-section {
     height: 520px;
-    background: url("http://www.exlservice.com/wp-content/uploads/2015/09/FA-Business-Services-Hero-2.jpg") no-repeat left top;
+    background: url("http://www.exlvalue.com/wp-content/uploads/2015/09/FA-Business-values-Hero-2.jpg") no-repeat left top;
     background-size: 1100px 660px;
     background-size: 800px 580px;
     &::before {
@@ -409,7 +409,6 @@ body {
 }
 .portfolio-collage {
     height: 1000px;
-    max-width: 1300px;
     margin: auto;
 }
 .collage-column {
@@ -475,7 +474,7 @@ body {
     }
 }
 .team-section {
-    padding: 250px 0 0px;
+    padding: 85px 0 0px;
     p {
         position: relative;
         width: 60%;
@@ -487,7 +486,6 @@ body {
 }
 .profile-view-container {
     width: 90%;
-    max-width: 1300px;
     margin: 0 auto -15px;
     .profile-image {
         display: inline-block;
@@ -495,19 +493,14 @@ body {
         width: 50%;
         vertical-align: top;
         background: 
-            // radial-gradient(circle at center, rgba(255, 255, 255, 0), rgb(255, 255, 255) 100%) 
-            url("../../../assets/images/people/q-transp.jpeg") no-repeat center;
-        // background: radial-gradient(circle at center, rgba(255, 255, 255, 0), rgb(255, 255, 255) 100%);
-        background-size: 75vw auto;
+        url("../../../assets/images/people/q-transp.jpeg") no-repeat center;
+        background-size: 101vw auto;
         transform:scaleX(-1);
     }
     .arrow {
         position: absolute;
         z-index: 20;
         top: 50%;
-        // transform: translateY(-50%);
-        // height: 50px;
-        // width: 50px;
         background: url("https://image.freepik.com/free-icon/chevron-arrow-to-right--ios-7-interface-symbol_318-33616.png") no-repeat center;
         background-size: cover;
         cursor: pointer;
@@ -580,13 +573,10 @@ body {
         margin-bottom: 0;
     }
 }
-.service-row {
-    height: 400px;
-    max-width: 1300px;
-    margin: auto;
+.value-row {
     height: 500px;
 }
-.service-row-half {
+.value-row-half {
     height: 100%;
     width: 50%;
     height: 50%;
@@ -595,20 +585,31 @@ body {
         font-size: 14px;
         margin-bottom: 25px;
     }
-    &.grey-back {
-        background: url("https://dnbfeed.no/wp-content/uploads/2015/08/city-sunny-buildings-skyscrapers-e1440501856970-624x284.jpg") no-repeat center;
+    p {
+        text-align: justify;
+    }
+    &.grey-back, .value-parallax {
+        background: url("../../../assets/images/backgrounds/windmills-over-clouds.jpeg") no-repeat center;
         background-size: cover;
-        filter: grayscale(1);
+        min-height: 550px; 
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     &.black-back {
         background-color: #000;
         color: #fff;
         .abs-cent-text {
-            height: 150px;
-            width: 150px;
-            font-size: 100px;
-            line-height: 150px;
-            font-family: "Montserrat";
+            height: 200px;
+            width: 90%;
+            margin-bottom: 20px;
+            word-wrap: break-word;
+            .orbitron::before,
+            .orbitron::after {
+                background-color: white;
+            }
             &.wordpress {
                 background: url("http://www.contextureintl.com/wp-content/uploads/2015/01/wordpress-logo-notext-cmyk.png") no-repeat center;
                 background-size: cover;
@@ -625,7 +626,16 @@ body {
 }
 .our-plans-section {
     background-color: #f4f4f4;
-    padding: 250px 0 120px;
+    &.grey-back, .plan-parallax {
+        background: url("../../../assets/images/backgrounds/windmills-sunset.jpeg") no-repeat center;
+        background-size: cover;
+        min-height: 550px; 
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     & > p {
         position: relative;
         width: 65%;
@@ -636,8 +646,8 @@ body {
     }
 }
 .plans-container {
-    max-width : 1300px ;
-    margin: auto;
+    // max-width : 1300px ;
+    margin: 40px 0 20px 0;
 }
 .plan {
     display: inline-block;
@@ -705,15 +715,23 @@ body {
     }
 }
 .contact-section {
-    padding: 220px 0 120px;
+    &.grey-back, .contact-parallax {
+        background: url("../../../assets/images/backgrounds/windmill-fog.jpeg") no-repeat center;
+        background-size: cover;
+        min-height: 550px; 
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     & > p {
         width: 90%;
         max-width: 900px;
-        margin: 0 auto 120px;
+        margin: 50px auto 50px;
     }
 }
 .contact-form-container {
-    max-width: 1300px;
     margin: auto;
 }
 .contact-half {
@@ -904,8 +922,8 @@ body {
             width: 50%;
         }
     }
-    .service-row-half {
-        height: 50%;
+    .value-row-half {
+        height: 60%;
         width: 100%;
     }
     .testimonials-section {
@@ -1003,7 +1021,10 @@ body {
             margin-bottom: 10px;
         }
     }
-    .service-row {
+    .value-row {
         height: 500px;
+    }
+    .value-row-half {
+        height: 70%;
     }
 }

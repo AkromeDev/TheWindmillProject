@@ -9,29 +9,29 @@
         (click)="setActiveTab('about')"
         class="nav-link" href="#aboutSection" id="aboutLink">About Us</a>
         
-        <a [ngClass]="{ active: activeTab === 'mission' }" 
+        <!-- <a [ngClass]="{ active: activeTab === 'mission' }" 
         (click)="setActiveTab('mission')"
-        class="nav-link" href="#missionSection" id="missionLink">Mission</a>
+        class="nav-link" href="#missionSection" id="missionLink">Mission</a> -->
         
         <a [ngClass]="{ active: activeTab === 'team' }" 
         (click)="setActiveTab('team')"
         class="nav-link" href="#teamSection" id="teamLink">Team</a>
         
-        <a [ngClass]="{ active: activeTab === 'service' }" 
-        (click)="setActiveTab('service')"
-        class="nav-link" href="#servicesSection" id="servicesLink">Services</a>
+        <a [ngClass]="{ active: activeTab === 'value' }" 
+        (click)="setActiveTab('value')"
+        class="nav-link" href="#valuesSection" id="valuesLink">values</a>
         
-        <a [ngClass]="{ active: activeTab === 'price' }" 
-        (click)="setActiveTab('price')"
-        class="nav-link" href="#priceSection" id="priceLink">Price</a>
+        <a [ngClass]="{ active: activeTab === 'support' }" 
+        (click)="setActiveTab('support')"
+        class="nav-link" href="#supportSection" id="supportLink">Support Us</a>
         
         <a [ngClass]="{ active: activeTab === 'contact' }" 
         (click)="setActiveTab('contact')"
         class="nav-link" href="#contactSection" id="contactLink">Contact</a>
         
-        <a [ngClass]="{ active: activeTab === 'blog' }" 
+        <!-- <a [ngClass]="{ active: activeTab === 'blog' }" 
         (click)="setActiveTab('blog')"
-        class="nav-link">Blog</a>
+        class="nav-link">Blog</a> -->
     </div>
 </div>
 <div class="rela-block top-section grad-back" id="topSection">
@@ -45,9 +45,9 @@
     <div class="half-big-text under-top-big-text">In 2023</div>
     <div class="lines-thing"></div>
     <p class="under-top-small-text">We plan to fincance and build enough wind turbines to give load-shedding free 
-        electricity to over 1000 habitants of the town ships of Cape Town. As it was introduced in 2018, 
+        electricity to over 1000 habitants of the townships of Cape Town. As it was introduced in 2018, 
         they were supposed to be just a temporary messure. As time went, we realise they were here to stay.
-        The habitants of the town ships are the ones suffering the most from Load-Shedding since they don't 
+        The habitants of the townships are the ones suffering the most from Load-Shedding since they don't 
         the ressources to buy external batteries or generators like most of the well off citizens of Cape Town bought.
     </p>
 </div>
@@ -81,7 +81,7 @@
             </div>
             <div class="quad-half floated left">
                 <h2 class="small-header">Solidarity</h2>
-                <p>The first wind turbines will be installed in Town Ships; where the population is most affected by the Load Sheddings.</p>
+                <p>The first wind turbines will be installed in townships; where the population is most affected by the Load Sheddings.</p>
             </div>
         </div>
         <div class="rela-block quad-row">
@@ -95,6 +95,7 @@
             </div>
         </div>
     </div>
+</div>
     <!-- <div class="orbitron black-orb">\\\///</div>
         <div class="rela-block about-us-bottom-container">
             <div class="floated left bottom-left-side">
@@ -169,23 +170,12 @@
     </div> -->
     <div class="rela-block team-section" id="teamSection">
         <h1 class="half-big-text has-border">Team</h1><br>
-            <div class="orbitron black-orb">\\\///</div>
-        <p>Wolf street art flannel microdosing, fixie viral small batch scenester PBR&B brunch mlkshk asymmetrical. Everyday carry brooklyn green juice, typewriter squid pork belly lomo forage paleo. </p>
+        <div class="orbitron black-orb">\\\///</div>
+        <!-- <p>Wolf street art flannel microdosing, fixie viral small batch scenester PBR&B brunch mlkshk asymmetrical. Everyday carry brooklyn green juice, typewriter squid pork belly lomo forage paleo. </p> -->
         <app-card [cards]="cards"></app-card>
         <div class="orbitron black-orb">\\\///</div>
-        <div class="rela-block profile-view-container">
-            <div class="arrow left"></div>
-            <div class="arrow right"></div>
-            <div class="profile-image"></div>
-            <div class="profile-content">
-                <h2 class="half-big-text">Employee of the month</h2>
-                <h3 class="small-header">Web Developer</h3>
-                <p>Wolf street art flannel microdosing, fixie viral small batch scenester PBR&B brunch mlkshk asymmetrical. Everyday carry brooklyn green juice, typewriter squid pork belly lomo forage paleo.</p>
-                <div class="lines-thing black"></div>
-            </div>
-        </div>
     </div>
-    <div class="rela-block clients-section">
+    <!-- <div class="rela-block clients-section">
         <div class="floated left client-part">
             <div class="abs-cent-text">
                 <h2 class="half-big-text has-border">Clients</h2>
@@ -194,105 +184,139 @@
         <div class="floated left client-part"></div>
         <div class="floated left client-part"></div>
         <div class="floated left client-part"></div>
-    </div>
-    <div class="rela-block services-section" id="servicesSection">
-        <div class="rela-block service-row">
-            <div class="floated left service-row-half grey-back">
+    </div> -->
+    <div class="rela-block values-section" id="valuesSection">
+        <div class="rela-block value-row">
+            <div class="floated left value-row-half grey-back value-parallax">
                 <div class="abs-cent-text">
-                    <h2 class="half-big-text has-border">Services</h2>
+                    <h2 class="half-big-text has-border">Values</h2>
                 </div>
             </div>
-            <div class="floated right service-row-half">
+        </div>
+        <div class="rela-block value-row">
+            <!-- <div class="floated right value-row-half black-back">
+                <div class="abs-cent-text">
+                    <h2 class="small-header">Quality over Quantity</h2>
+                    <p>
+                        We do not only plan to deliver the turbines and potentially let them degrade over the decades. 
+                        We plan to form some habitants of the township so that they understand the turbines know how 
+                        to fufill routine maintenance and small repairs. We want the turbines not only to be used by the habitants
+                        but also to empower them with the knowledge and pride that they are handling a country wide issues
+                        on their own and for their neighbors and relatives.
+                    </p>
+                </div>
+            </div> -->
+            <div class="floated left value-row-half black-back">
+                <div class="abs-cent-text">
+                    <h2 class="small-header">Empowerment</h2>
+                    <div class="orbitron black-orb">\\\///</div>
+                    <p>
+                        We do not only plan to deliver the turbines and potentially let them degrade over the decades. 
+                        We plan to form some habitants of the township so that they understand the turbines know how 
+                        to fufill routine maintenance and small repairs. We want the turbines not only to be used by the habitants
+                        but also to empower them with the knowledge and pride that they are handling a country wide issues
+                        on their own and for their neighbors and relatives.
+                    </p>
+                </div>
+            </div>
+            <div class="floated left value-row-half">
                 <div class="abs-cent-text">
                     <h2 class="small-header">Quality over Quantity</h2>
                     <div class="orbitron black-orb">\\\///</div>
-                    <p>Brooklyn migas gentrify, helvetica beard listicle yuccie 8-bit cardigan taxidermy knausgaard try-hard.</p>
+                    <p>
+                        The population of the Townships have to be taken in consideration, not only the authorities
+                        should be asked for the permission to cnstruct. Our project has to reflect the population 
+                        needs as weel as implicating them thoughout the whole process. This will allow them to reproduce
+                        the project in the future as they see the advantages. This is why the first Turbine will be of smaller size (15m)
+                        in order use as a test-phase. Once done, we should write a protocol so that such innitiatives could pop-up
+                        more easily thoughout the coutry.
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="rela-block service-row">
-            <div class="floated right service-row-half black-back">
-                <div class="abs-cent-text wordpress"></div>
-            </div>
-            <div class="floated left service-row-half">
-                <div class="abs-cent-text">
-                    <h2 class="small-header">Wordpress</h2>
-                    <div class="orbitron black-orb">\\\///</div>
-                    <p>Brooklyn migas gentrify, helvetica beard listicle yuccie 8-bit cardigan taxidermy knausgaard try-hard. 90's letterpress occupy franzen bushwick.</p>
-                </div>
-            </div>
-        </div>
-        <div class="rela-block service-row">
-            <div class="floated left service-row-half black-back">
+        <!-- <div class="rela-block value-row">
+            <div class="floated left value-row-half black-back">
                 <div class="abs-cent-text weird-one">&lt/&gt</div>
             </div>
-            <div class="floated right service-row-half">
+            <div class="floated right value-row-half">
                 <div class="abs-cent-text">
                     <h2 class="small-header">Pixel Perfect</h2>
                     <div class="orbitron black-orb">\\\///</div>
                     <p>3 wolf moon retro pickled, flexitarian echo park shoreditch keffiyeh direct trade sustainable forage readymade vinyl. Venmo bicycle rights mumblecore, fixie typewriter quinoa street art letterpress vinyl XOXO iPhone</p>
                 </div>
             </div>
-        </div>
-        <div class="rela-block service-row">
-            <div class="floated right service-row-half black-back">
+        </div> -->
+        <!-- <div class="rela-block value-row"> -->
+            <!-- <div class="floated right value-row-half black-back">
                 <div class="abs-cent-text star"></div>
-            </div>
-            <div class="floated left service-row-half">
+            </div> -->
+            <!-- <div class="floated left value-row-half">
                 <div class="abs-cent-text">
                     <h2 class="small-header">Minimal</h2>
                     <div class="orbitron black-orb">\\\///</div>
                     <p>Chia microdosing pork belly, occupy bitters pickled ennui cred listicle kale chips portland slow-carb. Leggings VHS readymade, authentic yuccie beard migas XOXO helvetica marfa gentrify. </p>
                 </div>
             </div>
+        </div> -->
+    <!-- </div> -->
+    <div class="rela-block our-plans-section" id="supportSection">
+        <div class="rela-block value-row">
+            <div class="floated left value-row-half grey-back plan-parallax">
+                <div class="abs-cent-text">
+                    <h2 class="half-big-text has-border">Our Plans</h2>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="rela-block our-plans-section" id="priceSection">
-        <h2 class="half-big-text has-border">Our Plans</h2>
-        <p>Flexitarian craft beer narwhal umami, swag church-key single-origin coffee. Gochujang hoodie cold-pressed, health goth paleo yr fashion axe listicle gentrify blog pinterest jean shorts.</p>
-        <div class="orbitron black-orb">\\\///</div>
+
         <div class="rela-block plans-container">
             <div class="plan">
-                <h2 class="rela-block half-big-text">Basic</h2>
+                <h2 class="rela-block half-big-text">Mellow First Timer</h2>
                 <div class="orbitron black-orb">\\\///</div>
-                <p class="rela-block"><span style="font-family:'Montserrat'; font-size:30px; line-height: 40px;">40$</span>/year</p>
-                <div class="orbitron black-orb">\\\///</div>
+                <p class="rela-block">
+                    <span style="font-family:'Montserrat'; font-size:30px; line-height: 40px;">
+                    > 5$</span>1 time
+                </p>
+                <div class="orbitron black-orb orb-reverse">///\\\</div>
                 <ul class="rela-block">
-                    <li>Customer Support 24/7</li>
-                    <li>Lifetime Updates</li>
-                    <li>10GB Cloud Storage</li>
-                    <li>10 Email boxes</li>
+                    <li>Your Profile will <b>forever</b> be referenced on our website</li>
+                    <li>-</li>
+                    <li>-</li>
+                    <li>-</li>
                     <li>-</li>
                 </ul>
-                <div class="has-lines black">Subscribe!</div>
+                <div class="has-lines black">Suport us!</div>
             </div>
             <div class="plan">
-                <h2 class="rela-block half-big-text">Standard</h2>
+                <h2 class="rela-block half-big-text">Cheerful Contributer</h2>
                 <div class="orbitron black-orb">\\\///</div>
-                <p class="rela-block"><span style="font-family:'Montserrat'; font-size:30px; line-height: 40px;">60$</span>/year</p>
-                <div class="orbitron black-orb">\\\///</div>
+                <p class="rela-block"><span style="font-family:'Montserrat'; font-size:30px; line-height: 40px;">
+                     > 20$</span>1 time
+                </p>
+                <div class="orbitron black-orb orb-reverse">///\\\</div>
                 <ul class="rela-block">
-                    <li>Customer Support 24/7</li>
-                    <li>Lifetime Updates</li>
-                    <li>100GB Cloud Storage</li>
-                    <li>20 Email boxes</li>
+                    <li>Your Profile will <b>forever</b> referenced on our website</li>
+                    <li>Your Name will be on a Wind Turbine</li>
+                    <li>Lifetime Updates of the project</li>
+                    <li>Write a personal message on turbine</li>
                     <li>-</li>
                 </ul>
-                <div class="has-lines black">Subscribe!</div>
+                <div class="has-lines black">Believe in us!</div>
             </div>
             <div class="plan">
-                <h2 class="rela-block half-big-text">Full</h2>
+                <h2 class="rela-block half-big-text">Fervant Sponsor</h2>
                 <div class="orbitron black-orb">\\\///</div>
-                <p class="rela-block"><span style="font-family:'Montserrat'; font-size:30px; line-height: 40px;">150$</span>/year</p>
-                <div class="orbitron black-orb">\\\///</div>
+                <p class="rela-block"><span style="font-family:'Montserrat'; font-size:30px; line-height: 40px;">
+                    > 50$</span>1 time
+                </p>
+                <div class="orbitron black-orb orb-reverse">///\\\</div>
                 <ul class="rela-block">
-                    <li>Customer Support 24/7</li>
-                    <li>Lifetime Updates</li>
-                    <li>10 TB Cloud Storage</li>
-                    <li>100 Email boxes</li>
-                    <li>Unlimited Traffic</li>
+                    <li>Your Profile will <b>forever</b> referenced on our website</li>
+                    <li>Your Name will be on a Wind Turbine</li>
+                    <li>Lifetime Updates of the project</li>
+                    <li>Write a personal message on turbine</li>
+                    <li>One Call to our Team</li>
                 </ul>
-                <div class="has-lines black">Subscribe!</div>
+                <div class="has-lines black">Wow, Thanks!!</div>
             </div>
         </div>
     </div>
@@ -304,47 +328,71 @@
         </div>
         <div class="floated left test-right">
             <div class="abs-cent-text">
-                <p class="space">"Meggings cold-pressed bitters authentic, locavore butcher etsy gastropub semiotics. Banjo mixtape farm-to-table, whatever poutine master cleanse blog godard raw denim williamsburg vice pinterest forage fap. Master cleanse single-origin coffee
+                <p class="space">"@THERESA I need a testimonial from one of the teacher or so!! Meggings cold-pressed bitters authentic, locavore butcher etsy gastropub semiotics. Banjo mixtape farm-to-table, whatever poutine master cleanse blog godard raw denim williamsburg vice pinterest forage fap. Master cleanse single-origin coffee
                     farm-to-table, flannel VHS viral XOXO bespoke banh mi tumblr umami. Banh mi brunch DIY, umami wayfarers waistcoat chia small batch brooklyn meggings food truck iPhone next level photo booth before they sold out."</p>
                     <h2 class="small-header">Benedict Cumberbatch</h2>
                     <p><em>Occupation stuff here</em></p>
                 </div>
             </div>
         </div>
+        <div class="rela-block profile-view-container">
+            <div class="arrow left"></div>
+            <div class="arrow right"></div>
+            <div class="profile-image"></div>
+            <div class="profile-content">
+                <h2 class="half-big-text">Employee of the month</h2>
+                <h3 class="small-header">Web Developer</h3>
+                <p>
+                    Here is our proud developer! he has been working for two days in a row with amazing energy <br>
+                    We hence thank him deepfully fro his amazin contribution! bah baye and Goood month! 
+                </p>
+                <div class="lines-thing black"></div>
+            </div>
+        </div>
         <div class="rela-block contact-section" id="contactSection">
-            <h2 class="half-big-text has-border">Contact</h2>
-            <p>Crucifix normcore synth, retro aesthetic plaid hashtag keffiyeh actually beard. Kombucha chillwave hoodie fap. Pug 3 wolf moon chia, keytar franzen cray cred slow-carb waistcoat viral farm-to-table sartorial lomo.</p>
+            <div class="rela-block value-row">
+                <div class="floated left value-row-half grey-back contact-parallax">
+                    <div class="abs-cent-text">
+                        <h2 class="half-big-text has-border">Contact</h2>
+                    </div>
+                </div>
+            </div> 
+            <p class="top-small-text">
+                The Windmill Project Team is there for you if you have questions, want to be part of our NGO or if you simply want know more about our mission.
+            </p>
             <div class="orbitron black-orb">\\\///</div>
             <div class="rela-block contact-form-container">
                 <div class="contact-half contact-left">
                     <h2 class="small-header">Don't hesitate to contact us.</h2>
-                    <p>Man braid leggings schlitz semiotics chambray 3 wolf moon blog fashion axe. Shabby chic paleo typewriter asymmetrical, forage chia affogato etsy. Cronut retro meh distillery.</p>
+                    <!-- <p>Man braid leggings schlitz semiotics chambray 3 wolf moon blog fashion axe. Shabby chic paleo typewriter asymmetrical, forage chia affogato etsy. Cronut retro meh distillery.</p> -->
                     <div class="rela-block left-quad-container">
-                        <div class="contact-quad">4435 Berkshire Circle<br>Knoxville<br>TN 27912</div>
-                        <div class="contact-quad">879-890-9767<br>234-890-1213</div>
-                        <div class="contact-quad">mail@mail.com<br>themes.fastwp.net</div>
-                        <div class="contact-quad">M-F: 8 AM - 3 PM<br>Sa: 8AM - 12PM<br>Su: Closed</div>
+                        <div class="contact-quad">42 Cannon Iland Way<br>Cape Town<br>7985</div>
+                        <div class="contact-quad">+27 73 594 4023<br>+49 157 3444 2716</div>
+                        <div class="contact-quad">thewindmillprojectteam@gmail.com</div>
+                        <div class="contact-quad">M-F: 9 AM - 2 PM<br>Sa: 9AM - 12PM<br>Su: Closed</div>
                     </div>
                     <div class="social-button facebook-button"></div>
                     <div class="social-button twitter-button"></div>
                     <div class="social-button instagram-button"></div>
                 </div>
-                <div class="contact-half contact-right">
+                <!-- <div class="contact-half contact-right">
                     <input type="text" placeholder="ENTER YOU NAME" class="contact-input" />
                     <input type="text" placeholder="ENTER YOUR EMAIL" class="contact-input" />
                     <input type="text" placeholder="PHONE NUMBER" class="contact-input" />
                     <textarea cols="40" rows="5" placeholder="ENTER YOUR MESSAGE" class="contact-input big-input"></textarea>
                     <h2 class="small-header submit-button">Submit</h2>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="rela-block footer-section">
-            <h2 class="small-header top-link">Back to Top</h2>
+            <h2 class="small-header top-link"><a href="#topSection" Sytle="color: white">Back to Top</a></h2>
             <div class="rela-block social-buttons-container">
                 <div class="social-button facebook-button"></div>
                 <div class="social-button twitter-button"></div>
                 <div class="social-button instagram-button"></div>
                 <div class="social-button behance-button"></div>
             </div>
-            <p>Classic deluxe custom designer luxury prestige high-quality premium select gourmet pocket pencil sharpener.<br>Yours for the asking, no purchase necessary. It's our way of saying thank you.</p>
+            <p>
+                Classic deluxe custom designer luxury prestige high-quality premium select gourmet pocket pencil sharpener.<br>Yours for the asking, no purchase necessary. It's our way of saying thank you.
+            </p>
         </div>
