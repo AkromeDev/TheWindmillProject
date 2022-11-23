@@ -3,19 +3,23 @@
   *ngFor="let card of cards">
   <div class="blurring dimmable image">
     <img [src]="card.imageSrc">
-    <button class="ui inverted olive button">{{ card.buttonText }}</button>
-  </div>
-  <div class="content">
-    <a class="header">{{ card.headerText }}</a>
-    <div class="meta">
-      <span class="date">{{ card.dateText }}</span>
-    </div>
-  </div>
-  <div class="extra content">
-    <a>
-      <i [ngClass]="card.iconClass" class="icon"></i>
-      {{ card.iconText }}
+    <a 
+      class="ui inverted black button" 
+      [href]="card.sectionLink">
+        {{ card.buttonText }}
     </a>
+</div>
+<div class="content">
+  <a class="header">{{ card.headerText }}</a>
+  <div class="meta">
+    <span class="date">{{ card.dateText }}</span>
   </div>
+</div>
+<div class="extra content">
+  <a>
+    <i [ngClass]="card.iconClass" class="icon"></i>
+    {{ card.iconText }}
+  </a>
+</div>
 </div>
 </div>

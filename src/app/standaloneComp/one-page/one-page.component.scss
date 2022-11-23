@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Orbitron:700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
 a {
+    color:rgb(0, 0, 0);
     text-decoration: none;
+    background-color: none;
 }
 * {
     transition: 0.4s ease;
@@ -798,6 +800,9 @@ body {
     padding: 75px 0;
     background: #000;
     color: #fff;
+    a {
+        color: #fff;
+    }
     .small-header {
         margin-bottom: 20px;
     }

@@ -2,7 +2,7 @@
     justify-content: center;
     margin: 1vw;
 }
-.olive {
+.inverted {
     display: none;
     float: left;
     position: absolute;
@@ -11,12 +11,20 @@
     left: 25%;
     right: 25%;
 }
+.card {
+    border: 10px solid black !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+.image img{
+    border-radius: 0 !important;
+}
 .card:hover {
     .blurring.image img{
         filter: brightness(45%) blur(2px);
         transition: ease 1s;
     }
-    .inverted.olive {
+    .inverted.black {
         display: block;
         transition: ease 1s;
         height: 40px;

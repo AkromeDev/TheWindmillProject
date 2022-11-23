@@ -35,6 +35,7 @@ export class OnePageComponent implements OnInit {
       dateText: 'Since the 1st of January 2000, she is pretty young',
       iconClass: 'venus mars',
       iconText: 'She IS the man eater',
+      sectionLink: '#contactSection',
     },
     { 
       imageSrc: 'assets/images/people/q-square.jpeg', 
@@ -43,6 +44,7 @@ export class OnePageComponent implements OnInit {
       dateText: 'Since Marseille existed, his soul was lighted on',
       iconClass: 'bolt',
       iconText: 'The Master of Apfel Apps',
+      sectionLink: '#contactSection',
     },
     { 
       imageSrc: 'assets/images/people/j-square.jpeg', 
@@ -51,6 +53,7 @@ export class OnePageComponent implements OnInit {
       dateText: 'Since the day he opened he flambed a fart',
       iconClass: 'blind',
       iconText: 'The Challenger',
+      sectionLink: '#contactSection',
     },
   ];
 }
