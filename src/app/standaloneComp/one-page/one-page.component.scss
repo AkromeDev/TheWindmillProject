@@ -759,6 +759,7 @@ body {
     .small-header {
         text-transform: none;
         letter-spacing: 1px;
+        text-align: center;
     }
     .social-button {
         margin: 10px -10px;
@@ -772,11 +773,11 @@ body {
 }
 .contact-quad {
     display: inline-block;
-    width: 48%;
+    width: 50%;
     box-sizing: border-box;
     vertical-align: top;
     padding: 15px;
-    text-align: left;
+    text-align: center;
 }
 .contact-input {
     width: 85%;
@@ -809,6 +810,9 @@ body {
     .top-link {
         cursor: pointer;
     }
+}
+.social-buttons-container {
+    justify-content: center;
 }
 .social-buttons-container {
     min-height: 100px;
