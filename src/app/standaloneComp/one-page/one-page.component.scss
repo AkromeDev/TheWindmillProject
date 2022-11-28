@@ -88,12 +88,13 @@ body {
     }
 }
 .nav-logo {
+    margin: 0;
     position: absolute;
-    top: 50%;
-    left: 6%;
-    transform: translateY(-50%);
+    top: 37%;
+    left: 50%;
     font-family: "Montserrat";
-    font-size: 24px;
+    font-size: 3vw;
+    text-align: left;
     letter-spacing: 0px;
     color: #fff;
     transition: 0.4s ease;
@@ -878,7 +879,7 @@ body {
 }
 
 
-@media only screen and (max-width:   900px) {
+@media only screen and (max-width: 900px) {
     .nav-bar.scrolled .nav-links-container {
         top: 30px;
     }
@@ -887,7 +888,7 @@ body {
     }
     .nav-links-container {
         width: 140px;
-        text-align: center;
+        text-align: right;
         top: 40px;
         transform: none;
         right: 50px;

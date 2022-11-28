@@ -1,5 +1,7 @@
 <div [ngClass]="{scrolled: scrolled}" class="nav-bar">
-    <div class="nav-logo">THE WINDMILL PROJECT</div>
+    <div class="nav-logo">
+        THE WINDMILL PROJECT
+    </div>
     <div class="nav-links-container">
         <a [ngClass]="{ active: activeTab === 'home' }" 
         (click)="setActiveTab('home')"
@@ -9,411 +11,404 @@
         (click)="setActiveTab('about')"
         class="nav-link" href="#aboutSection" id="aboutLink">About Us</a>
         
-        <!-- <a [ngClass]="{ active: activeTab === 'mission' }" 
-            (click)="setActiveTab('mission')"
-            class="nav-link" href="#missionSection" id="missionLink">Mission</a> -->
-            
-            <a [ngClass]="{ active: activeTab === 'team' }" 
-            (click)="setActiveTab('team')"
-            class="nav-link" href="#teamSection" id="teamLink">Team</a>
-            
-            <a [ngClass]="{ active: activeTab === 'value' }" 
-            (click)="setActiveTab('value')"
-            class="nav-link" href="#valuesSection" id="valuesLink">values</a>
-            
-            <a [ngClass]="{ active: activeTab === 'support' }" 
-            (click)="setActiveTab('support')"
-            class="nav-link" href="#supportSection" id="supportLink">Support Us</a>
-            
-            <a [ngClass]="{ active: activeTab === 'contact' }" 
-            (click)="setActiveTab('contact')"
-            class="nav-link" href="#contactSection" id="contactLink">Contact</a>
-            
-            <!-- <a [ngClass]="{ active: activeTab === 'blog' }" 
-                (click)="setActiveTab('blog')"
-                class="nav-link">Blog</a> -->
+        <a [ngClass]="{ active: activeTab === 'team' }" 
+        (click)="setActiveTab('team')"
+        class="nav-link" href="#teamSection" id="teamLink">Team</a>
+        
+        <a [ngClass]="{ active: activeTab === 'value' }" 
+        (click)="setActiveTab('value')"
+        class="nav-link" href="#valuesSection" id="valuesLink">Values</a>
+        
+        <a [ngClass]="{ active: activeTab === 'support' }" 
+        (click)="setActiveTab('support')"
+        class="nav-link" href="#supportSection" id="supportLink">Support Us</a>
+        
+        <a [ngClass]="{ active: activeTab === 'contact' }" 
+        (click)="setActiveTab('contact')"
+        class="nav-link" href="#contactSection" id="contactLink">Contact</a>
+        
+    </div>
+</div>
+<div class="rela-block top-section grad-back" id="topSection">
+    <div class="abs-cent-text top-text">
+        <h1 class="big-text">Electricity For All</h1>
+        <div class="orbitron top-orb">\\\///</div>
+        <p class="top-small-text">In a country in which Load-Shedding is raging, there are some solutions <br> we can implement that will answer to South Africa's social and environmental issues.</p>
+    </div>
+</div>
+<div class="rela-block under-top-section">
+    <div class="half-big-text under-top-big-text">In 2023</div>
+    <div class="lines-thing"></div>
+    <p class="under-top-small-text">We plan to fincance and build enough wind turbines to give load-shedding free 
+        electricity to over 1000 habitants of the townships of Cape Town. As it was introduced in 2018, 
+        they were supposed to be just a temporary messure. As time went, we realise they were here to stay.
+        The habitants of the townships are the ones suffering the most from Load-Shedding since they don't 
+        the ressources to buy external batteries or generators like most of the well off citizens of Cape Town bought.
+    </p>
+</div>
+<div class="rela-block welcome-section">
+    <div class="abs-cent-text welcome-text">
+        <h1 class="big-text">Welcome</h1>
+        <div class="orbitron black-orb">\\\///</div>
+        <p>The Windmill Project is a Non-Profit Organisation created in 2022 by a three members team. We are trying to solve the electricity problems 
+            in South Africa or at least improving the situation.
+        </p>
+        <div class="has-lines black">
+            <a href="https://patreon.com/user?u=83212318&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link" target="_blank">
+                Support Us
+            </a>
+        </div>
+    </div>
+</div>
+<div class="rela-block about-us-section" id="aboutSection">
+    <h1 class="half-big-text has-border">About Us</h1><br>
+    <div class="orbitron black-orb">\\\///</div>
+    <p class="explanation">
+        The Windmill Project. A dream, a vision, an improvement for many. It is possible to make the world a 
+        better place, might it be at a smaller scale. This is the essence of the project, the wind turbine technology 
+        allows for much flexibility as smaller turbines can be implemented faster and still provide energy for a few hundred people adding some power units to the grid will not only 
+        better the lives of few but also improve the resilience of the South African power grid. <br> 
+        As the technology pop-ups in cape town we hope to ease the entry of renewable energy by other local investors 
+        and administrations
+        <a href="https://www.c40knowledgehub.org/s/article/How-to-win-support-for-local-clean-energy?language=en_US" target="_blank">(as many ecological activists explain)</a> 
+        that will realise the potential it brings.
+        <!-- The number of people that can be helped vary with the amount of financing This is the essence of the  -->
+    </p>
+    <div class="rela-block about-us-quad-container">
+        <div class="rela-block quad-row">
+            <div class="quad-half floated left">
+                <h2 class="small-header">Implementation</h2>
+                <p>We expect to be able to install a multi-house turbine (for approximately 20 households) providing them with electricity all year long.</p>
+            </div>
+            <div class="quad-half floated left">
+                <h2 class="small-header">Solidarity</h2>
+                <p>The first wind turbines will be installed in townships; where the population is most affected by the Load Sheddings.</p>
             </div>
         </div>
-        <div class="rela-block top-section grad-back" id="topSection">
-            <div class="abs-cent-text top-text">
-                <h1 class="big-text">Electricity For All</h1>
-                <div class="orbitron top-orb">\\\///</div>
-                <p class="top-small-text">In a country in which Load-Shedding is raging, there are some solutions <br> we can implement that will answer to South Africa's social and environmental issues.</p>
+        <div class="rela-block quad-row">
+            <div class="quad-half floated left">
+                <h2 class="small-header">Flexible</h2>
+                <p>We can adapt to the needs of the population with smaller or bigger turbines in order reach villages of different sizes.</p>
+            </div>
+            <div class="quad-half floated left">
+                <h2 class="small-header">Make a Change</h2>
+                <p>The objective of this non-profit is not to control a few wind turbines but to familiarize with this technology and in end solve on of South Africa Great Challenge.</p>
             </div>
         </div>
-        <div class="rela-block under-top-section">
-            <div class="half-big-text under-top-big-text">In 2023</div>
-            <div class="lines-thing"></div>
-            <p class="under-top-small-text">We plan to fincance and build enough wind turbines to give load-shedding free 
-                electricity to over 1000 habitants of the townships of Cape Town. As it was introduced in 2018, 
-                they were supposed to be just a temporary messure. As time went, we realise they were here to stay.
-                The habitants of the townships are the ones suffering the most from Load-Shedding since they don't 
-                the ressources to buy external batteries or generators like most of the well off citizens of Cape Town bought.
-            </p>
+    </div>
+</div>
+<!-- <div class="orbitron black-orb">\\\///</div>
+    <div class="rela-block about-us-bottom-container">
+        <div class="floated left bottom-left-side">
+            <h2 class="small-header">Retina Ready</h2>
+            <div class="lines-thing black"></div>
+            <p>Brooklyn migas gentrify, helvetica beard listicle yuccie 8-bit cardigan taxidermy knausgaard try-hard. 90's letterpress occupy franzen bushwick try-hard, tofu disrupt wayfarers echo park deep v. Man braid mustache gluten-free put a bird on it flexitarian.</p>
         </div>
-        <div class="rela-block welcome-section">
-            <div class="abs-cent-text welcome-text">
-                <h1 class="big-text">Welcome</h1>
-                <div class="orbitron black-orb">\\\///</div>
-                <p>The Windmill Project is a Non-Profit Organisation created in 2022 by a three members team. We are trying to solve the electricity problems 
-                    in South Africa or at least improving the situation.
+        <div class="floated left bottom-right-side">
+            <p>Development</p>
+            <div class="rela-block progress-bar one"></div>
+            <p>Design</p>
+            <div class="rela-block progress-bar two"></div>
+            <p>Marketing</p>
+            <div class="rela-block progress-bar three"></div>
+            <p>Dedication</p>
+            <div class="rela-block progress-bar"></div>
+        </div>
+    </div>    
+</div> -->
+<!-- <div class="rela-block portfolio-section" id="missionSection">
+    <div class="rela-block portfolio-top grad-back">
+        <h1 class="half-big-text has-border">Portfolio</h1>
+    </div>
+    <div class="rela-block portfolio-second">
+        <div class="has-lines white">Show All</div>
+        <div class="has-lines white">Design</div>
+        <div class="has-lines white">Graphics</div>
+        <div class="has-lines white">Motion</div>
+        <div class="has-lines white">Video</div>
+    </div>
+    <div class="rela-block portfolio-collage">
+        <div class="floated left collage-column">
+            <div class="floated left collage-image third one"></div>
+            <div class="floated left collage-image third two"></div>
+            <div class="floated left collage-image third three"></div>
+        </div>
+        <div class="floated left collage-column">
+            <div class="floated left collage-image third four"></div>
+            <div class="floated left collage-image two-thirds five"></div>
+        </div>
+        <div class="floated left collage-column">
+            <div class="floated left collage-image two-thirds six"></div>
+            <div class="floated left collage-image third seven"></div>
+        </div>
+    </div>
+    <div class="rela-block portfolio-bottom">
+        <div class="floated left quarter-div">
+            <div class="abs-cent-text">
+                <h1 class="big-text">8679</h1>
+                <p>Happy Clients</p>
+            </div>
+        </div>
+        <div class="floated left quarter-div">
+            <div class="abs-cent-text">
+                <h1 class="big-text">340 K+</h1>
+                <p>Facebook Likes</p>
+            </div>
+        </div>
+        <div class="floated left quarter-div">
+            <div class="abs-cent-text">
+                <h1 class="big-text">100</h1>
+                <p>Awards</p>
+            </div>
+        </div>
+        <div class="floated left quarter-div">
+            <div class="abs-cent-text">
+                <h1 class="big-text">3456</h1>
+                <p>Retweets</p>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class="rela-block team-section" id="teamSection">
+    <h1 class="half-big-text has-border">Team</h1><br>
+    <div class="orbitron black-orb">\\\///</div>
+    <!-- <p>Wolf street art flannel microdosing, fixie viral small batch scenester PBR&B brunch mlkshk asymmetrical. Everyday carry brooklyn green juice, typewriter squid pork belly lomo forage paleo. </p> -->
+    <app-card [cards]="cards"></app-card>
+    <div class="orbitron black-orb">\\\///</div>
+</div>
+<!-- <div class="rela-block clients-section">
+    <div class="floated left client-part">
+        <div class="abs-cent-text">
+            <h2 class="half-big-text has-border">Clients</h2>
+        </div>
+    </div>
+    <div class="floated left client-part"></div>
+    <div class="floated left client-part"></div>
+    <div class="floated left client-part"></div>
+</div> -->
+<div class="rela-block values-section" id="valuesSection">
+    <div class="rela-block value-row">
+        <div class="floated left value-row-half grey-back value-parallax">
+            <div class="abs-cent-text">
+                <h2 class="half-big-text has-border">Values</h2>
+            </div>
+        </div>
+    </div>
+    <div class="rela-block value-row">
+        <!-- <div class="floated right value-row-half black-back">
+            <div class="abs-cent-text">
+                <h2 class="small-header">Quality over Quantity</h2>
+                <p>
+                    We do not only plan to deliver the turbines and potentially let them degrade over the decades. 
+                    We plan to form some habitants of the township so that they understand the turbines know how 
+                    to fufill routine maintenance and small repairs. We want the turbines not only to be used by the habitants
+                    but also to empower them with the knowledge and pride that they are handling a country wide issues
+                    on their own and for their neighbors and relatives.
                 </p>
-                <div class="has-lines black">
-                    <a href="https://patreon.com/user?u=83212318&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link" target="_blank">
-                        Support Us
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="rela-block about-us-section" id="aboutSection">
-            <h1 class="half-big-text has-border">About Us</h1><br>
-            <div class="orbitron black-orb">\\\///</div>
-            <p class="explanation">
-                The Windmill Project. A dream, a vision, an improvement for many. It is possible to make the world a 
-                better place, might it be at a smaller scale. This is the essence of the project, the wind turbine technology 
-                allows for much flexibility as smaller turbines can be implemented faster and still provide energy for a few hundred people adding some power units to the grid will not only 
-                better the lives of few but also improve the resilience of the South African power grid. <br> 
-                As the technology pop-ups in cape town we hope to ease the entry of renewable energy by other local investors 
-                and administrations
-                <a href="https://www.c40knowledgehub.org/s/article/How-to-win-support-for-local-clean-energy?language=en_US" target="_blank">(as many ecological activists explain)</a> 
-                that will realise the potential it brings.
-                <!-- The number of people that can be helped vary with the amount of financing This is the essence of the  -->
-            </p>
-            <div class="rela-block about-us-quad-container">
-                <div class="rela-block quad-row">
-                    <div class="quad-half floated left">
-                        <h2 class="small-header">Implementation</h2>
-                        <p>We expect to be able to install a multi-house turbine (for approximately 20 households) providing them with electricity all year long.</p>
-                    </div>
-                    <div class="quad-half floated left">
-                        <h2 class="small-header">Solidarity</h2>
-                        <p>The first wind turbines will be installed in townships; where the population is most affected by the Load Sheddings.</p>
-                    </div>
-                </div>
-                <div class="rela-block quad-row">
-                    <div class="quad-half floated left">
-                        <h2 class="small-header">Flexible</h2>
-                        <p>We can adapt to the needs of the population with smaller or bigger turbines in order reach villages of different sizes.</p>
-                    </div>
-                    <div class="quad-half floated left">
-                        <h2 class="small-header">Make a Change</h2>
-                        <p>The objective of this non-profit is not to control a few wind turbines but to familiarize with this technology and in end solve on of South Africa Great Challenge.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- <div class="orbitron black-orb">\\\///</div>
-            <div class="rela-block about-us-bottom-container">
-                <div class="floated left bottom-left-side">
-                    <h2 class="small-header">Retina Ready</h2>
-                    <div class="lines-thing black"></div>
-                    <p>Brooklyn migas gentrify, helvetica beard listicle yuccie 8-bit cardigan taxidermy knausgaard try-hard. 90's letterpress occupy franzen bushwick try-hard, tofu disrupt wayfarers echo park deep v. Man braid mustache gluten-free put a bird on it flexitarian.</p>
-                </div>
-                <div class="floated left bottom-right-side">
-                    <p>Development</p>
-                    <div class="rela-block progress-bar one"></div>
-                    <p>Design</p>
-                    <div class="rela-block progress-bar two"></div>
-                    <p>Marketing</p>
-                    <div class="rela-block progress-bar three"></div>
-                    <p>Dedication</p>
-                    <div class="rela-block progress-bar"></div>
-                </div>
-            </div>    
-        </div> -->
-        <!-- <div class="rela-block portfolio-section" id="missionSection">
-            <div class="rela-block portfolio-top grad-back">
-                <h1 class="half-big-text has-border">Portfolio</h1>
-            </div>
-            <div class="rela-block portfolio-second">
-                <div class="has-lines white">Show All</div>
-                <div class="has-lines white">Design</div>
-                <div class="has-lines white">Graphics</div>
-                <div class="has-lines white">Motion</div>
-                <div class="has-lines white">Video</div>
-            </div>
-            <div class="rela-block portfolio-collage">
-                <div class="floated left collage-column">
-                    <div class="floated left collage-image third one"></div>
-                    <div class="floated left collage-image third two"></div>
-                    <div class="floated left collage-image third three"></div>
-                </div>
-                <div class="floated left collage-column">
-                    <div class="floated left collage-image third four"></div>
-                    <div class="floated left collage-image two-thirds five"></div>
-                </div>
-                <div class="floated left collage-column">
-                    <div class="floated left collage-image two-thirds six"></div>
-                    <div class="floated left collage-image third seven"></div>
-                </div>
-            </div>
-            <div class="rela-block portfolio-bottom">
-                <div class="floated left quarter-div">
-                    <div class="abs-cent-text">
-                        <h1 class="big-text">8679</h1>
-                        <p>Happy Clients</p>
-                    </div>
-                </div>
-                <div class="floated left quarter-div">
-                    <div class="abs-cent-text">
-                        <h1 class="big-text">340 K+</h1>
-                        <p>Facebook Likes</p>
-                    </div>
-                </div>
-                <div class="floated left quarter-div">
-                    <div class="abs-cent-text">
-                        <h1 class="big-text">100</h1>
-                        <p>Awards</p>
-                    </div>
-                </div>
-                <div class="floated left quarter-div">
-                    <div class="abs-cent-text">
-                        <h1 class="big-text">3456</h1>
-                        <p>Retweets</p>
-                    </div>
-                </div>
             </div>
         </div> -->
-        <div class="rela-block team-section" id="teamSection">
-            <h1 class="half-big-text has-border">Team</h1><br>
-            <div class="orbitron black-orb">\\\///</div>
-            <!-- <p>Wolf street art flannel microdosing, fixie viral small batch scenester PBR&B brunch mlkshk asymmetrical. Everyday carry brooklyn green juice, typewriter squid pork belly lomo forage paleo. </p> -->
-            <app-card [cards]="cards"></app-card>
-            <div class="orbitron black-orb">\\\///</div>
+        <div class="floated left value-row-half black-back">
+            <div class="abs-cent-text">
+                <h2 class="small-header">Empowerment</h2>
+                <div class="orbitron black-orb">\\\///</div>
+                <p>
+                    We do not only plan to deliver the turbines and potentially let them degrade over the decades. 
+                    We plan to form some habitants of the township so that they understand the turbines know how 
+                    to fufill routine maintenance and small repairs. We want the turbines not only to be used by the habitants
+                    but also to empower them with the knowledge and pride that they are handling a country wide issues
+                    on their own and for their neighbors and relatives.
+                </p>
+            </div>
         </div>
-        <!-- <div class="rela-block clients-section">
-            <div class="floated left client-part">
+        <div class="floated left value-row-half">
+            <div class="abs-cent-text">
+                <h2 class="small-header">Quality over Quantity</h2>
+                <div class="orbitron black-orb">\\\///</div>
+                <p>
+                    The population of the Townships have to be taken in consideration, not only the authorities
+                    should be asked for the permission to cnstruct. Our project has to reflect the population 
+                    needs as weel as implicating them thoughout the whole process. This will allow them to reproduce
+                    the project in the future as they see the advantages. This is why the first Turbine will be of smaller size (15m)
+                    in order use as a test-phase. Once done, we should write a protocol so that such innitiatives could pop-up
+                    more easily thoughout the coutry.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="rela-block value-row">
+        <div class="floated left value-row-half black-back">
+            <div class="abs-cent-text weird-one">&lt/&gt</div>
+        </div>
+        <div class="floated right value-row-half">
+            <div class="abs-cent-text">
+                <h2 class="small-header">Pixel Perfect</h2>
+                <div class="orbitron black-orb">\\\///</div>
+                <p>3 wolf moon retro pickled, flexitarian echo park shoreditch keffiyeh direct trade sustainable forage readymade vinyl. Venmo bicycle rights mumblecore, fixie typewriter quinoa street art letterpress vinyl XOXO iPhone</p>
+            </div>
+        </div>
+    </div> -->
+    <!-- <div class="rela-block value-row"> -->
+        <!-- <div class="floated right value-row-half black-back">
+            <div class="abs-cent-text star"></div>
+        </div> -->
+        <!-- <div class="floated left value-row-half">
+            <div class="abs-cent-text">
+                <h2 class="small-header">Minimal</h2>
+                <div class="orbitron black-orb">\\\///</div>
+                <p>Chia microdosing pork belly, occupy bitters pickled ennui cred listicle kale chips portland slow-carb. Leggings VHS readymade, authentic yuccie beard migas XOXO helvetica marfa gentrify. </p>
+            </div>
+        </div>
+    </div> -->
+    <!-- </div> -->
+    <div class="rela-block our-plans-section" id="supportSection">
+        <div class="rela-block value-row">
+            <div class="floated left value-row-half grey-back plan-parallax">
                 <div class="abs-cent-text">
-                    <h2 class="half-big-text has-border">Clients</h2>
+                    <h2 class="half-big-text has-border">Our Plans</h2>
                 </div>
             </div>
-            <div class="floated left client-part"></div>
-            <div class="floated left client-part"></div>
-            <div class="floated left client-part"></div>
-        </div> -->
-        <div class="rela-block values-section" id="valuesSection">
-            <div class="rela-block value-row">
-                <div class="floated left value-row-half grey-back value-parallax">
-                    <div class="abs-cent-text">
-                        <h2 class="half-big-text has-border">Values</h2>
+        </div>
+        
+        <div class="rela-block plans-container">
+            <div class="plan">
+                <h2 class="rela-block half-big-text">Mellow First Timer</h2>
+                <div class="orbitron black-orb">\\\///</div>
+                <p class="rela-block">
+                    <span style="font-family:'Montserrat'; font-size:30px; line-height: 40px;">
+                        > 5$</span>1 time
+                    </p>
+                    <div class="orbitron black-orb orb-reverse">///\\\</div>
+                    <ul class="rela-block">
+                        <li>Your Profile will <b>forever</b> be referenced on our website</li>
+                        <li>-</li>
+                        <li>-</li>
+                        <li>-</li>
+                        <li>-</li>
+                    </ul>
+                    <div class="has-lines black">
+                        <a href="https://patreon.com/user?u=83212318&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link" target="_blank">
+                            Support Us!
+                        </a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <h2 class="rela-block half-big-text">Cheerful Contributor</h2>
+                    <div class="orbitron black-orb">\\\///</div>
+                    <p class="rela-block"><span style="font-family:'Montserrat'; font-size:30px; line-height: 40px;">
+                        > 20$</span>1 time
+                    </p>
+                    <div class="orbitron black-orb orb-reverse">///\\\</div>
+                    <ul class="rela-block">
+                        <li>Your Profile will <b>forever</b> referenced on our website</li>
+                        <li>Your Name will be on a Wind Turbine</li>
+                        <li>Lifetime Updates of the project</li>
+                        <li>Write a personal message on turbine</li>
+                        <li>-</li>
+                    </ul>
+                    <div class="has-lines black">
+                        <a href="https://patreon.com/user?u=83212318&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link" target="_blank">
+                            Believe in us!
+                        </a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <h2 class="rela-block half-big-text">Fervant Sponsor</h2>
+                    <div class="orbitron black-orb">\\\///</div>
+                    <p class="rela-block"><span style="font-family:'Montserrat'; font-size:30px; line-height: 40px;">
+                        > 50$</span>1 time
+                    </p>
+                    <div class="orbitron black-orb orb-reverse">///\\\</div>
+                    <ul class="rela-block">
+                        <li>Your Profile will <b>forever</b> referenced on our website</li>
+                        <li>Your Name will be on a Wind Turbine</li>
+                        <li>Lifetime Updates of the project</li>
+                        <li>Write a personal message on turbine</li>
+                        <li>One Call to our Team</li>
+                    </ul>
+                    <div class="has-lines black">
+                        <a href="https://patreon.com/user?u=83212318&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link" target="_blank">
+                            Wow, Thanks!!
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="rela-block value-row">
-                <!-- <div class="floated right value-row-half black-back">
-                    <div class="abs-cent-text">
-                        <h2 class="small-header">Quality over Quantity</h2>
-                        <p>
-                            We do not only plan to deliver the turbines and potentially let them degrade over the decades. 
-                            We plan to form some habitants of the township so that they understand the turbines know how 
-                            to fufill routine maintenance and small repairs. We want the turbines not only to be used by the habitants
-                            but also to empower them with the knowledge and pride that they are handling a country wide issues
-                            on their own and for their neighbors and relatives.
-                        </p>
-                    </div>
-                </div> -->
-                <div class="floated left value-row-half black-back">
-                    <div class="abs-cent-text">
-                        <h2 class="small-header">Empowerment</h2>
-                        <div class="orbitron black-orb">\\\///</div>
-                        <p>
-                            We do not only plan to deliver the turbines and potentially let them degrade over the decades. 
-                            We plan to form some habitants of the township so that they understand the turbines know how 
-                            to fufill routine maintenance and small repairs. We want the turbines not only to be used by the habitants
-                            but also to empower them with the knowledge and pride that they are handling a country wide issues
-                            on their own and for their neighbors and relatives.
-                        </p>
-                    </div>
+        </div>
+        <div class="rela-block testimonials-section">
+            <div class="floated left test-left">
+                <div class="abs-cent-text">
+                    <h2 class="half-big-text has-border">Testimonials</h2>
                 </div>
-                <div class="floated left value-row-half">
-                    <div class="abs-cent-text">
-                        <h2 class="small-header">Quality over Quantity</h2>
-                        <div class="orbitron black-orb">\\\///</div>
-                        <p>
-                            The population of the Townships have to be taken in consideration, not only the authorities
-                            should be asked for the permission to cnstruct. Our project has to reflect the population 
-                            needs as weel as implicating them thoughout the whole process. This will allow them to reproduce
-                            the project in the future as they see the advantages. This is why the first Turbine will be of smaller size (15m)
-                            in order use as a test-phase. Once done, we should write a protocol so that such innitiatives could pop-up
-                            more easily thoughout the coutry.
-                        </p>
+            </div>
+            <div class="floated left test-right">
+                <div class="abs-cent-text">
+                    <p class="space">"@THERESA I need a testimonial from one of the teacher or so!! Meggings cold-pressed bitters authentic, locavore butcher etsy gastropub semiotics. Banjo mixtape farm-to-table, whatever poutine master cleanse blog godard raw denim williamsburg vice pinterest forage fap. Master cleanse single-origin coffee
+                        farm-to-table, flannel VHS viral XOXO bespoke banh mi tumblr umami. Banh mi brunch DIY, umami wayfarers waistcoat chia small batch brooklyn meggings food truck iPhone next level photo booth before they sold out."</p>
+                        <h2 class="small-header">Benedict Cumberbatch</h2>
+                        <p><em>Occupation stuff here</em></p>
                     </div>
                 </div>
             </div>
-            <!-- <div class="rela-block value-row">
-                <div class="floated left value-row-half black-back">
-                    <div class="abs-cent-text weird-one">&lt/&gt</div>
+            <div class="rela-block profile-view-container">
+                <div class="arrow left"></div>
+                <div class="arrow right"></div>
+                <div class="profile-image"></div>
+                <div class="profile-content">
+                    <h2 class="half-big-text">Employee of the month</h2>
+                    <h3 class="small-header">Web Developer</h3>
+                    <p>
+                        Here is our proud developer! he has been working for two days in a row with amazing energy <br>
+                        We hence thank him deepfully fro his amazin contribution! bah baye and Goood month! 
+                    </p>
+                    <div class="lines-thing black"></div>
                 </div>
-                <div class="floated right value-row-half">
-                    <div class="abs-cent-text">
-                        <h2 class="small-header">Pixel Perfect</h2>
-                        <div class="orbitron black-orb">\\\///</div>
-                        <p>3 wolf moon retro pickled, flexitarian echo park shoreditch keffiyeh direct trade sustainable forage readymade vinyl. Venmo bicycle rights mumblecore, fixie typewriter quinoa street art letterpress vinyl XOXO iPhone</p>
-                    </div>
-                </div>
-            </div> -->
-            <!-- <div class="rela-block value-row"> -->
-                <!-- <div class="floated right value-row-half black-back">
-                    <div class="abs-cent-text star"></div>
-                </div> -->
-                <!-- <div class="floated left value-row-half">
-                    <div class="abs-cent-text">
-                        <h2 class="small-header">Minimal</h2>
-                        <div class="orbitron black-orb">\\\///</div>
-                        <p>Chia microdosing pork belly, occupy bitters pickled ennui cred listicle kale chips portland slow-carb. Leggings VHS readymade, authentic yuccie beard migas XOXO helvetica marfa gentrify. </p>
-                    </div>
-                </div>
-            </div> -->
-            <!-- </div> -->
-            <div class="rela-block our-plans-section" id="supportSection">
+            </div>
+            <div class="rela-block contact-section" id="contactSection">
                 <div class="rela-block value-row">
-                    <div class="floated left value-row-half grey-back plan-parallax">
+                    <div class="floated left value-row-half grey-back contact-parallax">
                         <div class="abs-cent-text">
-                            <h2 class="half-big-text has-border">Our Plans</h2>
+                            <h2 class="half-big-text has-border">Contact</h2>
                         </div>
                     </div>
+                </div> 
+                <p class="top-small-text">
+                    The Windmill Project Team is there for you if you have questions, want to be part of our NGO or if you simply want know more about our mission.
+                </p>
+                <div class="orbitron black-orb">\\\///</div>
+                <div class="rela-block contact-form-container">
+                    <div class="contact-half contact-left">
+                        <h2 class="small-header">Don't hesitate to contact us.</h2>
+                        <!-- <p>Man braid leggings schlitz semiotics chambray 3 wolf moon blog fashion axe. Shabby chic paleo typewriter asymmetrical, forage chia affogato etsy. Cronut retro meh distillery.</p> -->
+                        <div class="rela-block left-quad-container">
+                            <div class="contact-quad">42 Cannon Iland Way<br>Cape Town<br>7985</div>
+                            <div class="contact-quad">+27 73 594 4023<br>+49 157 3444 2716</div>
+                            <div class="contact-quad">thewindmillprojectteam@gmail.com</div>
+                            <div class="contact-quad">M-F: 9 AM - 2 PM<br>Sa: 9AM - 12PM<br>Su: Closed</div>
+                        </div>
+                        <div class="social-button-container">
+                            <div class="social-button facebook-button"></div>
+                            <div class="social-button twitter-button"></div>
+                            <div class="social-button instagram-button"></div>
+                        </div>
+                    </div>
+                    <!-- <div class="contact-half contact-right">
+                        <input type="text" placeholder="ENTER YOU NAME" class="contact-input" />
+                        <input type="text" placeholder="ENTER YOUR EMAIL" class="contact-input" />
+                        <input type="text" placeholder="PHONE NUMBER" class="contact-input" />
+                        <textarea cols="40" rows="5" placeholder="ENTER YOUR MESSAGE" class="contact-input big-input"></textarea>
+                        <h2 class="small-header submit-button">Submit</h2>
+                    </div> -->
                 </div>
-                
-                <div class="rela-block plans-container">
-                    <div class="plan">
-                        <h2 class="rela-block half-big-text">Mellow First Timer</h2>
-                        <div class="orbitron black-orb">\\\///</div>
-                        <p class="rela-block">
-                            <span style="font-family:'Montserrat'; font-size:30px; line-height: 40px;">
-                                > 5$</span>1 time
-                            </p>
-                            <div class="orbitron black-orb orb-reverse">///\\\</div>
-                            <ul class="rela-block">
-                                <li>Your Profile will <b>forever</b> be referenced on our website</li>
-                                <li>-</li>
-                                <li>-</li>
-                                <li>-</li>
-                                <li>-</li>
-                            </ul>
-                            <div class="has-lines black">
-                                <a href="https://patreon.com/user?u=83212318&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link" target="_blank">
-                                    Support Us!
-                                </a>
-                            </div>
-                        </div>
-                        <div class="plan">
-                            <h2 class="rela-block half-big-text">Cheerful Contributor</h2>
-                            <div class="orbitron black-orb">\\\///</div>
-                            <p class="rela-block"><span style="font-family:'Montserrat'; font-size:30px; line-height: 40px;">
-                                > 20$</span>1 time
-                            </p>
-                            <div class="orbitron black-orb orb-reverse">///\\\</div>
-                            <ul class="rela-block">
-                                <li>Your Profile will <b>forever</b> referenced on our website</li>
-                                <li>Your Name will be on a Wind Turbine</li>
-                                <li>Lifetime Updates of the project</li>
-                                <li>Write a personal message on turbine</li>
-                                <li>-</li>
-                            </ul>
-                            <div class="has-lines black">
-                                <a href="https://patreon.com/user?u=83212318&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link" target="_blank">
-                                    Believe in us!
-                                </a>
-                            </div>
-                        </div>
-                        <div class="plan">
-                            <h2 class="rela-block half-big-text">Fervant Sponsor</h2>
-                            <div class="orbitron black-orb">\\\///</div>
-                            <p class="rela-block"><span style="font-family:'Montserrat'; font-size:30px; line-height: 40px;">
-                                > 50$</span>1 time
-                            </p>
-                            <div class="orbitron black-orb orb-reverse">///\\\</div>
-                            <ul class="rela-block">
-                                <li>Your Profile will <b>forever</b> referenced on our website</li>
-                                <li>Your Name will be on a Wind Turbine</li>
-                                <li>Lifetime Updates of the project</li>
-                                <li>Write a personal message on turbine</li>
-                                <li>One Call to our Team</li>
-                            </ul>
-                            <div class="has-lines black">
-                                <a href="https://patreon.com/user?u=83212318&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link" target="_blank">
-                                    Wow, Thanks!!
-                                </a>
-                            </div>
-                        </div>
+            </div>
+            <div class="rela-block footer-section">
+                <h2 class="small-header"><a href="#topSection">
+                    Back to Top</a></h2>
+                    <div class="rela-block social-buttons-container">
+                        <div class="social-button facebook-button"></div>
+                        <div class="social-button twitter-button"></div>
+                        <div class="social-button instagram-button"></div>
+                        <div class="social-button behance-button"></div>
                     </div>
+                    <p>
+                        Classic deluxe custom designer luxury prestige high-quality premium select gourmet pocket pencil sharpener.<br>Yours for the asking, no purchase necessary. It's our way of saying thank you.
+                    </p>
                 </div>
-                <div class="rela-block testimonials-section">
-                    <div class="floated left test-left">
-                        <div class="abs-cent-text">
-                            <h2 class="half-big-text has-border">Testimonials</h2>
-                        </div>
-                    </div>
-                    <div class="floated left test-right">
-                        <div class="abs-cent-text">
-                            <p class="space">"@THERESA I need a testimonial from one of the teacher or so!! Meggings cold-pressed bitters authentic, locavore butcher etsy gastropub semiotics. Banjo mixtape farm-to-table, whatever poutine master cleanse blog godard raw denim williamsburg vice pinterest forage fap. Master cleanse single-origin coffee
-                                farm-to-table, flannel VHS viral XOXO bespoke banh mi tumblr umami. Banh mi brunch DIY, umami wayfarers waistcoat chia small batch brooklyn meggings food truck iPhone next level photo booth before they sold out."</p>
-                                <h2 class="small-header">Benedict Cumberbatch</h2>
-                                <p><em>Occupation stuff here</em></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="rela-block profile-view-container">
-                        <div class="arrow left"></div>
-                        <div class="arrow right"></div>
-                        <div class="profile-image"></div>
-                        <div class="profile-content">
-                            <h2 class="half-big-text">Employee of the month</h2>
-                            <h3 class="small-header">Web Developer</h3>
-                            <p>
-                                Here is our proud developer! he has been working for two days in a row with amazing energy <br>
-                                We hence thank him deepfully fro his amazin contribution! bah baye and Goood month! 
-                            </p>
-                            <div class="lines-thing black"></div>
-                        </div>
-                    </div>
-                    <div class="rela-block contact-section" id="contactSection">
-                        <div class="rela-block value-row">
-                            <div class="floated left value-row-half grey-back contact-parallax">
-                                <div class="abs-cent-text">
-                                    <h2 class="half-big-text has-border">Contact</h2>
-                                </div>
-                            </div>
-                        </div> 
-                        <p class="top-small-text">
-                            The Windmill Project Team is there for you if you have questions, want to be part of our NGO or if you simply want know more about our mission.
-                        </p>
-                        <div class="orbitron black-orb">\\\///</div>
-                        <div class="rela-block contact-form-container">
-                            <div class="contact-half contact-left">
-                                <h2 class="small-header">Don't hesitate to contact us.</h2>
-                                <!-- <p>Man braid leggings schlitz semiotics chambray 3 wolf moon blog fashion axe. Shabby chic paleo typewriter asymmetrical, forage chia affogato etsy. Cronut retro meh distillery.</p> -->
-                                <div class="rela-block left-quad-container">
-                                    <div class="contact-quad">42 Cannon Iland Way<br>Cape Town<br>7985</div>
-                                    <div class="contact-quad">+27 73 594 4023<br>+49 157 3444 2716</div>
-                                    <div class="contact-quad">thewindmillprojectteam@gmail.com</div>
-                                    <div class="contact-quad">M-F: 9 AM - 2 PM<br>Sa: 9AM - 12PM<br>Su: Closed</div>
-                                </div>
-                                <div class="social-button-container">
-                                    <div class="social-button facebook-button"></div>
-                                    <div class="social-button twitter-button"></div>
-                                    <div class="social-button instagram-button"></div>
-                                </div>
-                            </div>
-                            <!-- <div class="contact-half contact-right">
-                                <input type="text" placeholder="ENTER YOU NAME" class="contact-input" />
-                                <input type="text" placeholder="ENTER YOUR EMAIL" class="contact-input" />
-                                <input type="text" placeholder="PHONE NUMBER" class="contact-input" />
-                                <textarea cols="40" rows="5" placeholder="ENTER YOUR MESSAGE" class="contact-input big-input"></textarea>
-                                <h2 class="small-header submit-button">Submit</h2>
-                            </div> -->
-                        </div>
-                    </div>
-                    <div class="rela-block footer-section">
-                        <h2 class="small-header"><a href="#topSection">
-                            Back to Top</a></h2>
-                            <div class="rela-block social-buttons-container">
-                                <div class="social-button facebook-button"></div>
-                                <div class="social-button twitter-button"></div>
-                                <div class="social-button instagram-button"></div>
-                                <div class="social-button behance-button"></div>
-                            </div>
-                            <p>
-                                Classic deluxe custom designer luxury prestige high-quality premium select gourmet pocket pencil sharpener.<br>Yours for the asking, no purchase necessary. It's our way of saying thank you.
-                            </p>
-                        </div>
