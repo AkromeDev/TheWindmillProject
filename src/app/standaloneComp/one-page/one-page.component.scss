@@ -541,41 +541,6 @@ body {
         margin: 0 0 80px;
     }
 }
-.clients-section {
-    background-color: #000;
-    color: #fff;
-    height: 360px;
-    height: 480px;
-}
-.client-part {
-    height: 100%;
-    width: 20%;
-    background-size: 80% !important;
-    height: 50%;
-    width: 50%;
-    height: 25%;
-    width: 100%;
-    &:nth-child(1) {
-        width: 40%;
-        width: 50%;
-        width: 100%;
-    }
-    &:nth-child(2) {
-        background: url("https://s-media-cache-ak0.pinimg.com/564x/4b/6d/0a/4b6d0a36f786104a37d7801c50bc92b6.jpg") no-repeat center;
-        background-size: 140px 100% !important;
-    }
-    &:nth-child(3) {
-        background: url("https://pbs.twimg.com/media/CaZrLNFUMAAhCOf.jpg") no-repeat center;
-        background-size: 150px 100% !important;
-    }
-    &:nth-child(4) {
-        background: url("http://static1.squarespace.com/static/50899d9ce4b0852b71ea8642/t/56280caae4b00bbdefaf5ab8/1445465261275/Fake+Clothing+Logo") no-repeat center;
-        background-size: 260px 100% !important;
-    }
-    .half-big-text {
-        margin-bottom: 0;
-    }
-}
 .value-row {
     height: 500px;
 }
@@ -958,7 +923,28 @@ body {
     }
 }
 
-@media only screen and (max-width:     700px) {
+@media only screen and (max-width: 700px) {
+    p {
+        font-size: 3vw;
+    }
+    .small-header {
+        font-size: 3vw;
+        letter-spacing: 0;
+    }
+    .rela-block {
+        padding: 0;
+    }
+    .half-big-text {
+        font-size: 8vw;
+        line-height: 30px;
+        letter-spacing: 5px;
+        padding: 0;
+        &.has-border {
+            margin-bottom: 30px;
+            // margin: 0;
+            padding: 15px 15px;
+        }
+    }
     .quad-half .bottom-left-side,
     .quad-half .bottom-right-side {
         padding: 0 0 30px;
@@ -1019,7 +1005,7 @@ body {
         margin-bottom: 22px;
     }
     .about-us-section {
-        padding: 80px 0 0;
+        padding: 20px 0 0;
     }
     .portfolio-bottom {
         height: 450px;
