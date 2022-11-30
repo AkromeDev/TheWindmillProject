@@ -556,16 +556,6 @@ body {
     p {
         text-align: justify;
     }
-    &.grey-back, .value-parallax {
-        background: url("../../../assets/images/backgrounds/windmills-over-clouds.jpeg") no-repeat center;
-        background-size: cover;
-        min-height: 550px; 
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
     &.black-back {
         background-color: #000;
         color: #fff;
@@ -578,32 +568,11 @@ body {
             .orbitron::after {
                 background-color: white;
             }
-            &.wordpress {
-                background: url("http://www.contextureintl.com/wp-content/uploads/2015/01/wordpress-logo-notext-cmyk.png") no-repeat center;
-                background-size: cover;
-            }
-            &.star {
-                background: url("http://www.stickerupper.com/images/detailed/star-2-sticker.gif") no-repeat center;
-                background-size: cover;
-            }
-            &.weird-one {
-                width: 300px;
-            }
         }
     }
 }
 .our-plans-section {
     background-color: #f4f4f4;
-    &.grey-back, .plan-parallax {
-        background: url("../../../assets/images/backgrounds/windmills-sunset.jpeg") no-repeat center;
-        background-size: cover;
-        min-height: 550px; 
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
     & > p {
         position: relative;
         width: 65%;
@@ -614,7 +583,6 @@ body {
     }
 }
 .plans-container {
-    // max-width : 1300px ;
     margin: 40px 0 20px 0;
 }
 .plan {
@@ -683,16 +651,6 @@ body {
     }
 }
 .contact-section {
-    &.grey-back, .contact-parallax {
-        background: url("../../../assets/images/backgrounds/windmill-fog.jpeg") no-repeat center;
-        background-size: cover;
-        min-height: 550px; 
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
     & > p {
         width: 90%;
         max-width: 900px;
@@ -992,7 +950,6 @@ body {
     .quad-half .profile-content p {
         margin: 0 auto 60px;
     }
-    
 }
 @media only screen and (max-width: 500px) {
     .big-text {

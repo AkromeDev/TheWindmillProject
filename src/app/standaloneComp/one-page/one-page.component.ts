@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit, HostListener } from '@angular/core';
 import { CardComponent } from '../card/card.component';
+import { ParallaxComponent } from '../parallax/parallax.component';
 
 @Component({
   selector: 'app-one-page',
   standalone: true,
-  imports: [CommonModule, CardComponent],
+  imports: [CommonModule, CardComponent, ParallaxComponent],
   templateUrl: './one-page.component.html',
   styleUrls: ['./one-page.component.scss']
 })
