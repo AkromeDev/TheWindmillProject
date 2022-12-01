@@ -882,9 +882,6 @@ body {
         font-size: 3vw;
         letter-spacing: 0;
     }
-    .rela-block {
-        padding: 0;
-    }
     .half-big-text {
         font-size: 8vw;
         line-height: 30px;
@@ -906,22 +903,6 @@ body {
                         height: 33.333333%;
                     }
                 }
-            }
-        }
-        .client-part {
-            height: 25%;
-            width: 100%;
-            &:nth-child(1) {
-                width: 100%;
-            }
-            &:nth-child(2) {
-                background-size: 140px 100% !important;
-            }
-            &:nth-child(3) {
-                background-size: 150px 100% !important;
-            }
-            &:nth-child(4) {
-                background-size: 260px 100% !important;
             }
         }
     }
