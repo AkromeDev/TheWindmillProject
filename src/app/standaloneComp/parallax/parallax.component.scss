@@ -11,30 +11,3 @@
     position: relative;
     height: 60vh;
 }
-.has-border {
-    position: relative;
-    // aligns vertically and horizontally
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    width: 40vw;
-    padding: 20px 20px;
-    border: 10px solid;
-    font-family: "Montserrat";
-    text-transform: uppercase;
-    font-size: 30px;
-    line-height: 48px;
-    letter-spacing: 12px;
-}
-
-@media only screen and (max-width: 800px) {
-    .has-border {
-        position: relative;
-        width: 45%;
-        padding: 3vw 0vw;
-        font-size: 5vw;
-        line-height: 30px;
-        letter-spacing: 5px;
-    }
-}

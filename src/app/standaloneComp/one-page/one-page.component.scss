@@ -175,13 +175,6 @@ body {
     line-height: 48px;
     letter-spacing: 12px;
     margin-bottom: 45px;
-    &.has-border {
-        display: inline-block;
-        position: relative;
-        margin: 0 auto 50px;
-        padding: 15px 45px;
-        border: 10px solid;
-    }
 }
 .under-top-section {
     color: #fff;
@@ -897,11 +890,6 @@ body {
         line-height: 30px;
         letter-spacing: 5px;
         padding: 0;
-        &.has-border {
-            margin-bottom: 30px;
-            // margin: 0;
-            padding: 15px 15px;
-        }
     }
     .quad-half .bottom-left-side,
     .quad-half .bottom-right-side {

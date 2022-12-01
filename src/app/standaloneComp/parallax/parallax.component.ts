@@ -1,10 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TitleComponent } from '../title/title.component';
 
 @Component({
   selector: 'app-parallax',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TitleComponent],
   templateUrl: './parallax.component.html',
   styleUrls: ['./parallax.component.scss']
 })
