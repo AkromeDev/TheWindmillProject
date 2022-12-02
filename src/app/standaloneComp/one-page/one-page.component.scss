@@ -358,36 +358,6 @@ body {
         letter-spacing: 3px;
     }
 }
-.progress-bar {
-    height: 18px;
-    width: 90%;
-    border: 3px solid;
-    margin-bottom: 10px;
-    &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #000;
-    }
-    &.one {
-        &::before {
-            right: 10%;
-        }
-    }
-    &.two {
-        &::before {
-            right: 20%;
-        }
-    }
-    &.three {
-        &::before {
-            right: 30%;
-        }
-    }
-}
 .portfolio-section {
     color: #fff;
 }
@@ -418,37 +388,6 @@ body {
                 height: 33.333333%;
             }
         }
-    }
-}
-.collage-image {
-    background-size: cover !important;
-    width: 100%;
-    &.third {
-        height: 33.3333333%;
-    }
-    &.two-thirds {
-        height: 66.6666666%;
-    }
-    &.one {
-        background: url("http://images.huffingtonpost.com/2014-12-02-knowledgepoolstokeepyourbrainhealthythiswinter.jpeg") no-repeat center;
-    }
-    &.two {
-        background: url("http://davideschenlohr.com/wp/david/wp-content/uploads/2015/08/type-set.jpg") no-repeat center;
-    }
-    &.three {
-        background: url("http://papers.co/wallpaper/papers.co-mu80-paris-eiffel-tower-tour-dark-bw-bird-france-29-wallpaper.jpg") no-repeat center;
-    }
-    &.four {
-        background: url("http://www.secondchance.org/wp-content/uploads/2014/07/unsplash_52c8b9c40b624_1-copy.jpg") no-repeat left top;
-    }
-    &.five {
-        background: url("https://ununsplash.imgix.net/31/4dAw8Su1SyaQH5ABC87S_Traunsee-Toscana_2014-02-01%20%2890%20von%20117%29.jpg?fit=max&fm=jpg&h=1080&q=75&w=1080") no-repeat center;
-    }
-    &.six {
-        background: url("https://d24wuq6o951i2g.cloudfront.net/img/events/id/146/146452/assets/f18.cirque.jpg") no-repeat center;
-    }
-    &.seven {
-        background: url("http://static1.squarespace.com/static/5555d35ae4b02de6a6e49ea4/5559d7efe4b0338055e763ac/5559d863e4b0c2b7c9e90a86/1433334869903/14010_023.jpg") no-repeat center;
     }
 }
 .portfolio-bottom {
@@ -929,9 +868,6 @@ body {
     }
     .orbitron {
         margin-bottom: 22px;
-    }
-    .about-us-section {
-        padding: 20px 0 0;
     }
     .portfolio-bottom {
         height: 450px;
