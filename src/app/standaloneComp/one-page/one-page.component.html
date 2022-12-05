@@ -32,7 +32,7 @@
 <div class="rela-block top-section grad-back" id="topSection">
     <div class="abs-cent-text top-text">
         <h1 class="big-text">Electricity For All</h1>
-        <div class="orbitron top-orb">\\\///</div>
+        <app-orbitron [color]="'white'"></app-orbitron>
         <p class="top-small-text">In a country in which Load-Shedding is raging, there are some solutions <br> we can implement that will answer to South Africa's social and environmental issues.</p>
     </div>
 </div>
@@ -49,7 +49,7 @@
 <div class="rela-block welcome-section">
     <div class="abs-cent-text welcome-text">
         <h1 class="big-text">Welcome</h1>
-        <div class="orbitron black-orb">\\\///</div>
+        <app-orbitron></app-orbitron>
         <p>The Windmill Project is a Non-Profit Organisation created in 2022 by a three members team. We are trying to solve the electricity problems 
             in South Africa or at least improving the situation.
         </p>
@@ -62,7 +62,7 @@
 </div>
 <div class="rela-block about-us-section" id="aboutSection">
     <app-title>About Us</app-title><br>
-    <div class="orbitron black-orb">\\\///</div>
+    <app-orbitron></app-orbitron>
     <p class="explanation">
         The Windmill Project. A dream, a vision, an improvement for many. It is possible to make the world a 
         better place, might it be at a smaller scale. This is the essence of the project, the wind turbine technology 
@@ -99,9 +99,9 @@
 </div>
 <div class="rela-block team-section" id="teamSection">
     <app-title>Team</app-title><br>
-    <div class="orbitron black-orb">\\\///</div>
+    <app-orbitron></app-orbitron>
     <app-card [cards]="cards"></app-card>
-    <div class="orbitron black-orb">\\\///</div>
+    <app-orbitron></app-orbitron>
 </div>
 <div class="rela-block values-section" id="valuesSection">
     <app-parallax [imageSrc]="'../../../assets/images/backgrounds/windmills-over-clouds.jpeg'">
@@ -111,7 +111,7 @@
         <div class="floated left value-row-half black-back">
             <div class="abs-cent-text">
                 <h2 class="small-header">Empowerment</h2>
-                <div class="orbitron black-orb">\\\///</div>
+                <app-orbitron [color]="'white'"></app-orbitron>
                 <p>
                     We do not only plan to deliver the turbines and potentially let them degrade over the decades. 
                     We plan to form some habitants of the township so that they understand the turbines know how 
@@ -124,7 +124,7 @@
         <div class="floated left value-row-half">
             <div class="abs-cent-text">
                 <h2 class="small-header">Quality over Quantity</h2>
-                <div class="orbitron black-orb">\\\///</div>
+                <app-orbitron></app-orbitron>
                 <p>
                     The population of the Townships have to be taken in consideration, not only the authorities
                     should be asked for the permission to cnstruct. Our project has to reflect the population 
@@ -144,7 +144,7 @@
         <div class="rela-block plans-container">
             <div class="plan">
                 <h2 class="rela-block half-big-text">Mellow First Timer</h2>
-                <div class="orbitron black-orb">\\\///</div>
+                <app-orbitron></app-orbitron>
                 <p class="rela-block">
                     <span style="font-family:'Montserrat'; font-size:30px; line-height: 40px;">
                     > 5$
@@ -167,7 +167,7 @@
             </div>
             <div class="plan">
                 <h2 class="rela-block half-big-text">Cheerful Contributor</h2>
-                <div class="orbitron black-orb">\\\///</div>
+                <app-orbitron></app-orbitron>
                 <p class="rela-block"><span style="font-family:'Montserrat'; font-size:30px; line-height: 40px;">
                     > 20$</span>1 time
                 </p>
@@ -187,7 +187,7 @@
             </div>
             <div class="plan">
                 <h2 class="rela-block half-big-text">Fervant Sponsor</h2>
-                <div class="orbitron black-orb">\\\///</div>
+                <app-orbitron></app-orbitron>
                 <p class="rela-block"><span style="font-family:'Montserrat'; font-size:30px; line-height: 40px;">
                     > 50$</span>1 time
                 </p>
@@ -243,7 +243,7 @@
     <p class="top-small-text">
         The Windmill Project Team is there for you if you have questions, want to be part of our NGO or if you simply want know more about our mission.
     </p>
-    <div class="orbitron black-orb">\\\///</div>
+    <app-orbitron></app-orbitron>
     <div class="rela-block contact-form-container">
         <div class="contact-half contact-left">
             <h2 class="small-header">Don't hesitate to contact us.</h2>
@@ -268,4 +268,6 @@
         Classic deluxe custom designer luxury prestige high-quality premium select gourmet pocket pencil sharpener.<br>Yours for the asking, no purchase necessary. It's our way of saying thank you.
     </p>
 </div>
-<app-text-block></app-text-block>
+<app-text-block>
+</app-text-block>
+<app-orbitron></app-orbitron>

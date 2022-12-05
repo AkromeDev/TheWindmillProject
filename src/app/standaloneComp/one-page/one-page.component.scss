@@ -44,36 +44,6 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-.orbitron {
-    display: inline-block;
-    position: relative;
-    font-family: "Orbitron";
-    font-size: 20px;
-    letter-spacing: 0px;
-    line-height: 32px;
-    margin-bottom: 60px;
-    margin-bottom: 22px;
-    &::before {
-        left: -65%;
-    }
-    &::after {
-        right: -63%;
-    }
-}
-.orbitron::before,
-.orbitron::after {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 60%;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #fff;
-}
-.orbitron.black-orb::before,
-.orbitron.black-orb::after {
-    background-color: #000;
-}
 .nav-bar {
     position: fixed;
     z-index: 100;
@@ -233,10 +203,6 @@ body {
         bottom: 0;
         background: linear-gradient(to left, #fff 48%, transparent);
     }
-    .orbitron {
-        font-size: 16px;
-        margin-bottom: 30px;
-    }
 }
 .welcome-text {
     right: 0;
@@ -306,9 +272,6 @@ body {
         position: relative;
         width: 65%;
         margin: 30px auto 20px;
-    }
-    .orbitron {
-        margin-bottom: 20px;
     }
     .explanation {
         text-align: justify;
@@ -415,9 +378,6 @@ body {
         width: 60%;
         margin: 0 auto 30px;
     }
-    .orbitron {
-        margin-bottom: 40px;
-    }
 }
 .profile-view-container {
     width: 90%;
@@ -481,10 +441,6 @@ body {
     width: 50%;
     height: 50%;
     width: 100%;
-    .orbitron {
-        font-size: 14px;
-        margin-bottom: 25px;
-    }
     p {
         text-align: justify;
     }
@@ -496,10 +452,6 @@ body {
             width: 90%;
             margin-bottom: 20px;
             word-wrap: break-word;
-            .orbitron::before,
-            .orbitron::after {
-                background-color: white;
-            }
         }
     }
 }
@@ -509,9 +461,6 @@ body {
         position: relative;
         width: 65%;
         margin: 0 auto 120px;
-    }
-    .orbitron {
-        margin-bottom: 80px;
     }
 }
 .plans-container {
@@ -529,10 +478,6 @@ body {
     margin: 0px 8px 20px;
     .half-big-text {
         letter-spacing: 2px;
-        margin-bottom: 30px;
-    }
-    .orbitron {
-        font-size: 16px;
         margin-bottom: 30px;
     }
     p {
@@ -864,9 +809,6 @@ body {
         font-size: 36px;
         line-height: 46px;
         letter-spacing: 6px;
-        margin-bottom: 22px;
-    }
-    .orbitron {
         margin-bottom: 22px;
     }
     .portfolio-bottom {
