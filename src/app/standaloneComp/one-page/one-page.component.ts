@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit, HostListener } from '@angular/core';
 import { CardComponent } from '../card/card.component';
+import { OrbitronComponent } from '../orbitron/orbitron.component';
 import { ParallaxComponent } from '../parallax/parallax.component';
 import { TextBlockComponent } from '../text-block/text-block.component';
 import { TitleComponent } from '../title/title.component';
@@ -8,7 +9,7 @@ import { TitleComponent } from '../title/title.component';
 @Component({
   selector: 'app-one-page',
   standalone: true,
-  imports: [CommonModule, CardComponent, ParallaxComponent, TitleComponent, TextBlockComponent],
+  imports: [CommonModule, CardComponent, ParallaxComponent, TitleComponent, TextBlockComponent, OrbitronComponent],
   templateUrl: './one-page.component.html',
   styleUrls: ['./one-page.component.scss']
 })

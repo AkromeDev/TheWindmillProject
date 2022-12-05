@@ -5,13 +5,13 @@
     font-size: 20px;
     letter-spacing: 0px;
     line-height: 32px;
-    margin-bottom: 60px;
-    margin-bottom: 22px;
+    margin-bottom: 30px;
+    margin-bottom: 20px;
     &::before {
         left: -65%;
     }
     &::after {
-        right: -63%;
+        right: -65%;
     }
 }
 .orbitron::before,
@@ -22,11 +22,12 @@
     width: 60%;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
 }
-.orbitron.black-orb::before,
-.orbitron.black-orb::after {
-    background-color: #000;
+.white::before,
+.white::after {
+    background-color: rgb(255, 255, 255);
+    background-color: [color];
 }
 @media only screen and (max-width: 500px) {
     .orbitron {
