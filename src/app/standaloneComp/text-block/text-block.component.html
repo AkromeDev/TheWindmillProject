@@ -1,14 +1,13 @@
-<div class="rela-block value-row">
+<!-- <div class="rela-block value-row"> -->
     <div class="floated left value-row-half black-back">
         <div class="abs-cent-text">
-            <h2 class="small-header">Empowerment</h2>
-            <div class="orbitron black-orb">\\\///</div>
+            <h2 class="small-header">
+                <ng-content select="header"></ng-content>
+            </h2>
+            <br>
+            <app-orbitron></app-orbitron>
             <p>
-                We do not only plan to deliver the turbines and potentially let them degrade over the decades. 
-                We plan to form some habitants of the township so that they understand the turbines know how 
-                to fufill routine maintenance and small repairs. We want the turbines not only to be used by the habitants
-                but also to empower them with the knowledge and pride that they are handling a country wide issues
-                on their own and for their neighbors and relatives.
+                <ng-content></ng-content>
             </p>
         </div>
     </div>
