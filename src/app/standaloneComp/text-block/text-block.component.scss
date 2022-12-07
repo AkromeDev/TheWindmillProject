@@ -1,4 +1,8 @@
-p {
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+.header {
     display: block;
     position: relative;
     text-align: center;
@@ -10,17 +14,9 @@ p {
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 8px;
-    margin-bottom: 20px;
 }
-header {
-    display: inline-block;
-    padding: 30px;
-    margin-bottom: 45px;
-    letter-spacing: 4px;
-    border: 1px solid;
-    font-size: 14px;
-    font-family: "Roboto";
-}
-.value-row {
-    height: 500px;
+p {
+    font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    text-align: justify;
+
 }

@@ -1,13 +1,10 @@
-<!-- <div class="rela-block value-row"> -->
-    <div class="floated left value-row-half black-back">
-        <div class="abs-cent-text">
-            <h2 class="small-header">
-                <ng-content select="header"></ng-content>
-            </h2>
-            <br>
-            <app-orbitron></app-orbitron>
-            <p>
-                <ng-content></ng-content>
-            </p>
-        </div>
-    </div>
+<div class="container">
+    <h2 class="header">
+        <ng-content  select="header"></ng-content>
+    </h2>
+    <br>
+    <app-orbitron></app-orbitron>
+    <p>
+        <ng-content></ng-content>
+    </p>
+</div>
