@@ -174,7 +174,7 @@ body {
         bottom: -12px;
     }
     &.black {
-        background-color: #000;
+        background-color: var(--black);
     }
 }
 .lines-thing::before,
@@ -187,7 +187,7 @@ body {
 }
 .lines-thing.black::before,
 .lines-thing.black::after {
-    background-color: #000;
+    background-color: var(--black);
 }
 .welcome-section {
     height: 520px;
@@ -261,7 +261,7 @@ body {
 }
 .has-lines.black:hover::before,
 .has-lines.black:hover::after {
-    background-color: #000;
+    background-color: var(--black);
 }
 .about-us-section {
     padding: 250px 0 80px;
@@ -327,7 +327,7 @@ body {
 .portfolio-top {
     background: url("https://unsplash.it/3000/1987?image=931") no-repeat center;
     background-size: 100% 100%;
-    color: #000;
+    color: var(--black);
     .half-big-text {
         margin: 90px auto;
     }
@@ -445,7 +445,7 @@ body {
         text-align: justify;
     }
     &.black-back {
-        background-color: #000;
+        background-color: var(--black);
         color: #fff;
         .abs-cent-text {
             height: 200px;
@@ -494,7 +494,7 @@ body {
     }
 }
 .testimonials-section {
-    background-color: #000;
+    background-color: var(--black);
     color: #fff;
     height: 500px;
     height: 600px;
