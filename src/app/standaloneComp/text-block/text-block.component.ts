@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { OrbitronComponent } from '../orbitron/orbitron.component';
 
@@ -10,6 +10,7 @@ import { OrbitronComponent } from '../orbitron/orbitron.component';
   styleUrls: ['./text-block.component.scss']
 })
 export class TextBlockComponent implements OnInit {
+  @Input() color: string = "";
 
   constructor() { }
 

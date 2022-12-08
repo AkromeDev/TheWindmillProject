@@ -1,6 +1,13 @@
 .container {
-    width: 90%;
-    margin: 30px auto;
+    padding: 40px 10%;
+}
+.black {
+    background-color: var(--white);
+    color: var(--black);
+}
+.white {
+    background-color: var(--black);
+    color: var(--white);
 }
 .header {
     display: block;
@@ -18,5 +25,4 @@
 p {
     font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     text-align: justify;
-
 }

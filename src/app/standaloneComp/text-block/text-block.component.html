@@ -1,10 +1,10 @@
-<div class="container">
+<div class="container {{color}}">
     <h2 class="header">
-        <ng-content  select="header"></ng-content>
+        <ng-content class="{{color}}" select="header"></ng-content>
     </h2>
     <br>
-    <app-orbitron></app-orbitron>
-    <p>
+    <app-orbitron [color]="color"></app-orbitron>
+    <p class="{{color}}">
         <ng-content></ng-content>
     </p>
 </div>
