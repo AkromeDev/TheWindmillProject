@@ -141,7 +141,7 @@ body {
 .half-big-text {
     font-family: "Montserrat";
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 3vw;
     line-height: 48px;
     letter-spacing: 12px;
     margin-bottom: 45px;
@@ -767,7 +767,6 @@ body {
         letter-spacing: 0;
     }
     .half-big-text {
-        font-size: 8vw;
         line-height: 30px;
         letter-spacing: 5px;
         padding: 0;
@@ -810,6 +809,9 @@ body {
         line-height: 46px;
         letter-spacing: 6px;
         margin-bottom: 22px;
+    }
+    .half-big-text {
+        font-size: 5vw
     }
     .portfolio-bottom {
         height: 450px;
