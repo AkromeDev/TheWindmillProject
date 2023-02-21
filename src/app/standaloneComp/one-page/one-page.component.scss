@@ -191,7 +191,6 @@ body {
 }
 .welcome-section {
     height: 520px;
-    background: url("http://www.exlvalue.com/wp-content/uploads/2015/09/FA-Business-values-Hero-2.jpg") no-repeat left top;
     background-size: 1100px 660px;
     background-size: 800px 580px;
     &::before {
@@ -381,7 +380,7 @@ body {
 }
 .profile-view-container {
     width: 90%;
-    margin: 0 auto -15px;
+    margin: 20px 1vw -15px;
     .profile-image {
         display: inline-block;
         height: 576px;
@@ -391,21 +390,6 @@ body {
         url("../../../assets/images/people/q-transp.jpeg") no-repeat center;
         background-size: 101vw auto;
         transform:scaleX(-1);
-    }
-    .arrow {
-        position: absolute;
-        z-index: 20;
-        top: 50%;
-        background: url("https://image.freepik.com/free-icon/chevron-arrow-to-right--ios-7-interface-symbol_318-33616.png") no-repeat center;
-        background-size: cover;
-        cursor: pointer;
-        &.left {
-            transform: translateY(-50%) rotate(180deg);
-            left: 0;
-        }
-        &.right {
-            right: 0;
-        }
     }
 }
 .profile-content {
@@ -422,7 +406,7 @@ body {
     .small-header {
         display: inline-block;
         padding: 2px 10px;
-        margin-bottom: 45px;
+        margin: 10px 0;
         letter-spacing: 4px;
         border: 1px solid;
         font-size: 14px;
