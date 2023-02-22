@@ -1,0 +1,29 @@
+.lines {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 45px;
+    height: 2px;
+    width: 80px;
+    background-color: var(--white);
+    &::before {
+        top: -12px;
+    }
+    &::after {
+        bottom: -12px;
+    }
+    &.black {
+        background-color: var(--black);
+    }
+}
+.lines::before,
+.lines::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 25px;
+    background-color: var(--white);
+}
+.lines.black::before,
+.lines.black::after {
+    background-color: var(--black);
+}
