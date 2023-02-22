@@ -1,7 +1,7 @@
 .lines {
     display: inline-block;
     position: relative;
-    margin-bottom: 45px;
+    text-align: left;
     height: 2px;
     width: 80px;
     background-color: var(--white);
@@ -13,6 +13,9 @@
     }
     &.black {
         background-color: var(--black);
+    }
+    &.margin-bottom {
+        margin-bottom: 45px;
     }
 }
 .lines::before,
