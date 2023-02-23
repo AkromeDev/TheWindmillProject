@@ -1,5 +1,5 @@
 section { 
-    padding: .5vw;
+    align-items: center;
     font-size: 0;
     display: -ms-flexbox;
     -ms-flex-wrap: wrap;
@@ -8,32 +8,39 @@ section {
     flex-flow: row wrap; 
     display: -webkit-box;
     display: flex;
-  }
-  div { 
-    -webkit-box-flex: auto;
-    -ms-flex: auto;
-    flex: auto; 
-    width: 200px; 
-    margin: .5vw; 
-  }
-  div img { 
-    width: 100%; 
-    height: auto; 
-    transform:scaleX(-1);
-  }
-  p {
-    font-family: 'Lato', 'Helvetica Neue', sans-serif;
-    font-size: 15px;
-    letter-spacing: 1px;
-    color: black;
+
+    div { 
+        -webkit-box-flex: auto;
+        -ms-flex: auto;
+        flex: auto; 
+        width: 50%; 
+        margin-top: 30px;
+    }
+    div img { 
+        transform:scaleX(-1);
+        max-height: 400px;
+        margin-bottom: -15px;
+    }
+    p {
+        width: 100%;
+        font-family: 'Lato', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        letter-spacing: 1px;
+        color: black;
+        margin: 0 30px 20px 0;
+        }
+}
+  .content {
+    text-align: left;
+    margin-top: 50px;
   }
   .title {
     font-family: "Montserrat";
     text-transform: uppercase;
-    font-size: 3vw;
+    font-size: 4vh;
     line-height: 48px;
     letter-spacing: 12px;
-    margin-bottom: 45px;
+    margin-bottom:20px;
     line-height: 30px;
     letter-spacing: 5px;
     padding: 0;
@@ -46,9 +53,23 @@ section {
     letter-spacing: 4px;
     border: 1px solid;
     padding: 10px;
-    margin: 10px 0;
+    margin-bottom: 20px;
 }
-  @media screen and (max-width: 400px) {
-    section div { margin: 0; }
-    section { padding: 0; }
-  }
+@media screen and (max-width: 620px) {
+    section {
+        flex-direction: column-reverse;
+        div {
+            width: 100%;
+        }
+    }
+    section div img { 
+        height: auto;
+        max-height: 300px;
+      }
+    .content {
+        text-align: center;
+      }
+    .text {
+        padding: 0 50px;
+    }
+}
