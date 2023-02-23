@@ -66,7 +66,7 @@ body {
     font-size: 3vw;
     text-align: left;
     letter-spacing: 0px;
-    color: #fff;
+    color: var(--white);
     transition: 0.4s ease;
     cursor: pointer;
     left: 4%;
@@ -96,7 +96,7 @@ body {
 }
 .nav-link.active,
 .nav-link:hover {
-    color: #fff;
+    color: var(--white);
 }
 .top-section {
     height: 100vh;
@@ -120,7 +120,7 @@ body {
     }
 }
 .top-text {
-    color: #fff;
+    color: var(--white);
     top: 58%;
     line-height: 28px;
 }
@@ -147,7 +147,7 @@ body {
     margin-bottom: 45px;
 }
 .under-top-section {
-    color: #fff;
+    color: var(--white);
     background-color: #1d1d1d;
     text-align: left;
     padding: 0 6%;
@@ -160,35 +160,6 @@ body {
     max-width: 580px;
     margin-bottom: 50px;
 }
-.lines-thing {
-    display: inline-block;
-    position: relative;
-    margin-bottom: 45px;
-    height: 2px;
-    width: 80px;
-    background-color: #fff;
-    &::before {
-        top: -12px;
-    }
-    &::after {
-        bottom: -12px;
-    }
-    &.black {
-        background-color: var(--black);
-    }
-}
-.lines-thing::before,
-.lines-thing::after {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 25px;
-    background-color: #fff;
-}
-.lines-thing.black::before,
-.lines-thing.black::after {
-    background-color: var(--black);
-}
 .welcome-section {
     height: 520px;
     background-size: 1100px 660px;
@@ -200,7 +171,7 @@ body {
         left: 0;
         right: 0;
         bottom: 0;
-        background: linear-gradient(to left, #fff 48%, transparent);
+        background: linear-gradient(to left, var(--white) 48%, transparent);
     }
 }
 .welcome-text {
@@ -256,7 +227,7 @@ body {
 }
 .has-lines.white:hover::before,
 .has-lines.white:hover::after {
-    background-color: #fff;
+    background-color: var(--white);
 }
 .has-lines.black:hover::before,
 .has-lines.black:hover::after {
@@ -321,7 +292,7 @@ body {
     }
 }
 .portfolio-section {
-    color: #fff;
+    color: var(--white);
 }
 .portfolio-top {
     background: url("https://unsplash.it/3000/1987?image=931") no-repeat center;
@@ -378,45 +349,6 @@ body {
         margin: 0 auto 30px;
     }
 }
-.profile-view-container {
-    width: 90%;
-    margin: 20px 1vw -15px;
-    .profile-image {
-        display: inline-block;
-        height: 576px;
-        width: 50%;
-        vertical-align: top;
-        background: 
-        url("../../../assets/images/people/q-transp.jpeg") no-repeat center;
-        background-size: 101vw auto;
-        transform:scaleX(-1);
-    }
-}
-.profile-content {
-    display: inline-block;
-    position: relative;
-    padding-top: 50px;
-    width: 48%;
-    vertical-align: top;
-    text-align: left;
-    .half-big-text {
-        letter-spacing: 2px;
-        margin-bottom: 5px;
-    }
-    .small-header {
-        display: inline-block;
-        padding: 2px 10px;
-        margin: 10px 0;
-        letter-spacing: 4px;
-        border: 1px solid;
-        font-size: 14px;
-        font-family: "Roboto";
-    }
-    p {
-        width: 80%;
-        margin: 0 0 80px;
-    }
-}
 .value-row {
     height: 500px;
 }
@@ -430,7 +362,7 @@ body {
     }
     &.black-back {
         background-color: var(--black);
-        color: #fff;
+        color: var(--white);
         .abs-cent-text {
             height: 200px;
             width: 90%;
@@ -479,7 +411,7 @@ body {
 }
 .testimonials-section {
     background-color: var(--black);
-    color: #fff;
+    color: var(--white);
     height: 500px;
     height: 600px;
 }
@@ -585,9 +517,9 @@ body {
 .footer-section {
     padding: 75px 0;
     background: #000;
-    color: #fff;
+    color: var(--white);
     a {
-        color: #fff;
+        color: var(--white);
     }
     .small-header {
         margin-bottom: 20px;

@@ -5,11 +5,13 @@ import { OrbitronComponent } from '../orbitron/orbitron.component';
 import { ParallaxComponent } from '../parallax/parallax.component';
 import { TextBlockComponent } from '../text-block/text-block.component';
 import { TitleComponent } from '../title/title.component';
+import { PhotoCaptionComponent } from '../photo-caption/photo-caption.component';
+import { ParagraphLinesComponent } from '../paragraph-lines/paragraph-lines.component';
 
 @Component({
   selector: 'app-one-page',
   standalone: true,
-  imports: [CommonModule, CardComponent, ParallaxComponent, TitleComponent, TextBlockComponent, OrbitronComponent],
+  imports: [CommonModule, CardComponent, ParallaxComponent, TitleComponent, TextBlockComponent, OrbitronComponent, PhotoCaptionComponent, ParagraphLinesComponent],
   templateUrl: './one-page.component.html',
   styleUrls: ['./one-page.component.scss']
 })
